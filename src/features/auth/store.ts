@@ -1,27 +1,33 @@
 import { create } from 'zustand';
-import { persist } from 'zustand/middleware';
-import type { AuthState, User } from './types';
+import { getAccessToken, setTokens, clearTokens } from '@/shared/lib/auth/token-manager';
+import type { LoginResponse } from './types';
 
-interface AuthStore extends AuthState {
-    setAuth: (user: User, token: string, refreshToken: string) => void;
-    clearAuth: () => void;
+interface AuthStore {
+    /** True when a valid access token is present in localStorage. */
+    isAuthenticated: boolean;
+    /** Identifier of the logged-in user (email). */
+    user: string | null;
+    /** Called after a successful login API response. */
+    loginSuccess: (response: LoginResponse) => void;
+    /** Clears session state and tokens. */
+    logout: () => void;
 }
 
-export const useAuthStore = create<AuthStore>()(
-    persist(
-        (set) => ({
-            user: null,
-            token: null,
-            refreshToken: null,
+export const useAuthStore = create<AuthStore>((set) => ({
+    // Restore auth from a previous session
+    isAuthenticated: !!getAccessToken(),
+    user: null,
 
-            setAuth: (user, token, refreshToken) =>
-                set({ user, token, refreshToken }),
+    loginSuccess: (response) => {
+        setTokens(response.token.access, response.token.refresh);
+        set({
+            isAuthenticated: true,
+            user: response.email,
+        });
+    },
 
-            clearAuth: () =>
-                set({ user: null, token: null, refreshToken: null }),
-        }),
-        {
-            name: 'auth-storage', // localStorage key
-        }
-    )
-);
+    logout: () => {
+        clearTokens();
+        set({ isAuthenticated: false, user: null });
+    },
+}));

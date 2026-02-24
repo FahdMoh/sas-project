@@ -2,13 +2,13 @@ import { Navigate, Outlet } from 'react-router-dom';
 import { useAuthStore } from '@/features/auth/store';
 
 /**
- * Wraps routes that require authentication.
- * Redirects unauthenticated users to /login.
+ * Wraps any route that requires authentication.
+ * Unauthenticated users are sent to /login.
  */
 const ProtectedRoute = () => {
-  const token = useAuthStore((state) => state.token);
+  const isAuthenticated = useAuthStore((state) => state.isAuthenticated);
 
-  if (!token) {
+  if (!isAuthenticated) {
     return <Navigate to="/login" replace />;
   }
 

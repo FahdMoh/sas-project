@@ -1,13 +1,13 @@
 import type { AxiosInstance, InternalAxiosRequestConfig } from 'axios';
-import { getToken, clearTokens } from '@/shared/lib/auth/token-manager';
+import { getAccessToken, clearTokens } from '@/shared/lib/auth/token-manager';
 
 /**
- * Injects the Bearer token from storage into every outgoing request.
+ * Injects the Bearer token from localStorage into every outgoing request.
  */
 export const attachTokenInterceptor = (instance: AxiosInstance): void => {
     instance.interceptors.request.use(
         (config: InternalAxiosRequestConfig) => {
-            const token = getToken();
+            const token = getAccessToken();
             if (token && config.headers) {
                 config.headers.Authorization = `Bearer ${token}`;
             }
@@ -18,15 +18,22 @@ export const attachTokenInterceptor = (instance: AxiosInstance): void => {
 };
 
 /**
- * Handles 401 Unauthorized responses.
- * TODO: implement token refresh logic (call /auth/refresh, retry original request).
+ * Handles 401 Unauthorized responses — clears tokens and redirects to /login.
+ * TODO: implement silent refresh before clearing the session.
  */
 export const handleUnauthorizedInterceptor = (instance: AxiosInstance): void => {
     instance.interceptors.response.use(
         (response) => response,
-        async (error) => {
-            if (error.response?.status === 401) {
-                // TODO: attempt token refresh before clearing session
+        (error: unknown) => {
+            const status =
+                typeof error === 'object' &&
+                    error !== null &&
+                    'response' in error &&
+                    typeof (error as { response?: { status?: number } }).response?.status === 'number'
+                    ? (error as { response: { status: number } }).response.status
+                    : null;
+
+            if (status === 401) {
                 clearTokens();
                 window.location.href = '/login';
             }

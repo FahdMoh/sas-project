@@ -1,25 +1,55 @@
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useAuthStore } from './store';
-import * as authApi from './api';
-import type { LoginPayload } from './types';
+import { login as apiLogin, logout as apiLogout } from './api';
+import type { LoginRequest } from './types';
 
 /**
- * Convenience hook exposing auth state and actions.
+ * Composes auth store state with login mutation logic
+ * (loading state, error handling, and API call).
  */
 export const useAuth = () => {
-    const { user, token, setAuth, clearAuth } = useAuthStore();
+    const { isAuthenticated, user, loginSuccess, logout } = useAuthStore();
 
-    const isAuthenticated = !!token;
+    const [isLoading, setIsLoading] = useState(false);
+    const [error, setError] = useState<string | null>(null);
 
-    const handleLogin = async (payload: LoginPayload) => {
-        // TODO: handle errors with try/catch and surface to UI
-        const response = await authApi.login(payload);
-        setAuth(response.user, response.token, response.refreshToken);
+    const login = async (credentials: LoginRequest): Promise<void> => {
+        setIsLoading(true);
+        setError(null);
+        try {
+            const response = await apiLogin(credentials);
+            loginSuccess(response);
+        } catch (err) {
+            // Both mock rejections and Axios errors are normalised to plain Error
+            // objects inside api.ts, so err.message is always the user-facing text.
+            const message =
+                err instanceof Error ? err.message : 'Login failed. Please try again.';
+            setError(message);
+            throw err;
+        } finally {
+            setIsLoading(false);
+        }
     };
 
-    const handleLogout = async () => {
-        await authApi.logout();
-        clearAuth();
+    return { isAuthenticated, user, isLoading, error, login, logout };
+};
+
+/**
+ * Triggers the logout flow:
+ *   1. Calls the API (fire-and-forget — errors are swallowed inside api.logout).
+ *   2. Always clears store + tokens via the Zustand logout action.
+ *   3. Redirects to '/' (home).
+ */
+export const useLogout = () => {
+    const { logout: storeLogout } = useAuthStore();
+    const navigate = useNavigate();
+
+    const handleLogout = async (): Promise<void> => {
+        await apiLogout(); // attempt server-side invalidation
+        storeLogout();     // always clear local tokens & state
+        navigate('/');     // redirect regardless of API result
     };
 
-    return { user, token, isAuthenticated, handleLogin, handleLogout };
+    return { handleLogout };
 };

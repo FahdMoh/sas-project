@@ -1,27 +1,21 @@
 /**
  * Auth feature types
  */
-export interface User {
-    id: string;
-    email: string;
-    firstName: string;
-    lastName: string;
-    role: string;
-}
 
-export interface AuthState {
-    user: User | null;
-    token: string | null;
-    refreshToken: string | null;
-}
-
-export interface LoginPayload {
+/**
+ * Client-side login payload — uses `email` as the field name.
+ * api.ts maps this to `email` before sending to the backend.
+ */
+export interface LoginRequest {
     email: string;
     password: string;
 }
 
-export interface AuthResponse {
-    user: User;
-    token: string;
-    refreshToken: string;
+/** Response returned by the backend login endpoint */
+export interface LoginResponse {
+    email: string; // backend field name kept as-is
+    token: {
+        access: string;
+        refresh: string;
+    };
 }

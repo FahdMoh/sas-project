@@ -1,22 +1,22 @@
-const TOKEN_KEY = 'auth_token';
-const REFRESH_TOKEN_KEY = 'auth_refresh_token';
+const ACCESS_TOKEN_KEY = 'access_token';
+const REFRESH_TOKEN_KEY = 'refresh_token';
 
 /** Retrieve the access token from localStorage. */
-export const getToken = (): string | null =>
-    localStorage.getItem(TOKEN_KEY);
+export const getAccessToken = (): string | null =>
+    localStorage.getItem(ACCESS_TOKEN_KEY);
 
 /** Retrieve the refresh token from localStorage. */
 export const getRefreshToken = (): string | null =>
     localStorage.getItem(REFRESH_TOKEN_KEY);
 
 /** Persist both tokens to localStorage. */
-export const setTokens = (token: string, refreshToken: string): void => {
-    localStorage.setItem(TOKEN_KEY, token);
-    localStorage.setItem(REFRESH_TOKEN_KEY, refreshToken);
+export const setTokens = (access: string, refresh: string): void => {
+    localStorage.setItem(ACCESS_TOKEN_KEY, access);
+    localStorage.setItem(REFRESH_TOKEN_KEY, refresh);
 };
 
-/** Remove both tokens from localStorage (used on logout / 401). */
+/** Remove both tokens (used on logout / 401). */
 export const clearTokens = (): void => {
-    localStorage.removeItem(TOKEN_KEY);
+    localStorage.removeItem(ACCESS_TOKEN_KEY);
     localStorage.removeItem(REFRESH_TOKEN_KEY);
 };
