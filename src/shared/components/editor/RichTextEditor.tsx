@@ -1,57 +1,26 @@
-import { useEditor, EditorContent } from '@tiptap/react';
-import StarterKit from '@tiptap/starter-kit';
-import { toolbarButtons, type ToolbarButton } from './toolbar-config';
+const toolbarButtons = ['Bold', 'Italic', 'Align Left', 'Align Center', 'Align Right'];
 
-interface RichTextEditorProps {
-  content?: string;
-  onChange?: (html: string) => void;
-  placeholder?: string;
-  editable?: boolean;
-}
-
-/**
- * Shared rich text editor built on Tiptap + StarterKit.
- * Wrap with react-hook-form Controller for form integration.
- */
-const RichTextEditor = ({
-  content = '',
-  onChange,
-  editable = true,
-}: RichTextEditorProps) => {
-  const editor = useEditor({
-    extensions: [StarterKit],
-    content,
-    editable,
-    onUpdate: ({ editor }) => {
-      onChange?.(editor.getHTML());
-    },
-  });
-
-  if (!editor) return null;
-
+const RichTextEditor = () => {
   return (
-    <div className="overflow-hidden rounded-lg border border-gray-300 focus-within:ring-2 focus-within:ring-blue-500">
-      {/* Toolbar */}
-      <div className="flex flex-wrap gap-1 border-b border-gray-200 bg-gray-50 p-2">
-        {toolbarButtons.map((btn: ToolbarButton) => (
+    <div className="flex flex-col overflow-hidden rounded-lg border border-gray-300">
+      {/* Mock toolbar */}
+      <div className="flex flex-wrap gap-1 border-b border-gray-200 bg-gray-50 px-3 py-2">
+        {toolbarButtons.map((btn) => (
           <button
-            key={btn.label}
+            key={btn}
             type="button"
-            title={btn.label}
-            onClick={() => btn.action(editor)}
-            className={`rounded px-2 py-1 text-sm font-medium transition-colors hover:bg-gray-200 ${
-              btn.isActive?.(editor) ? 'bg-gray-300 text-gray-900' : 'text-gray-600'
-            }`}
+            className="rounded px-2 py-1 text-xs font-medium text-gray-600 hover:bg-gray-200"
           >
-            {btn.icon ?? btn.label}
+            {btn}
           </button>
         ))}
       </div>
 
-      {/* Editor area */}
-      <EditorContent
-        editor={editor}
-        className="prose prose-sm min-h-[160px] max-w-none p-3 focus:outline-none"
+      {/* Text area */}
+      <textarea
+        rows={8}
+        placeholder="Start typing your document content here…"
+        className="w-full resize-none p-4 text-sm text-gray-700 outline-none"
       />
     </div>
   );
