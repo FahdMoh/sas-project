@@ -63,7 +63,7 @@ const HomePage = () => {
       )}
 
       {/* ── HERO CONTENT ── */}
-      <div className="flex flex-row items-center justify-center flex-grow w-full gap-0 relative z-10" style={{ padding: '60px' }}>
+      <div className="flex flex-row items-center justify-center flex-grow w-full gap-0 relative z-10" style={{ paddingTop: '140px' }}>
 
         {/* ══ LEFT: Text + CTA ══ */}
         <div className="flex flex-col items-start justify-center flex-1 z-10" style={{ gap: 36, maxWidth: 560 }}>
@@ -171,7 +171,7 @@ const HomePage = () => {
           <div style={{ position: 'absolute', bottom: -8, right: -8, width: 22, height: 22, borderBottom: '2px solid #ee79f2', borderRight: '2px solid #ee79f2' }} />
 
           {/* Your original SVG — untouched */}
-          <svg width="400" height="645" viewBox="0 0 626 784" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg width="400" height="500" viewBox="0 0 626 784" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M564.857 426.939H546.029V411.87H533.476V426.939H514.648V436.984H533.476V452.053H546.029V436.984H564.857V426.939Z" fill="#6D2EC5"/>
             <ellipse cx="451.886" cy="180.821" rx="1.56905" ry="1.2557" fill="#6D2EC5"/>
             <path d="M456.078 184.174L474.907 199.242" stroke="#6D2EC5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
