@@ -10,6 +10,8 @@ const HomePage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center gap-6 bg-gray-50 p-8">
       <h1 className="text-4xl font-bold text-gray-800">Welcome to SAS Project</h1>
+
+
       <p className="text-gray-500">Select an action to get started.</p>
 
       <div className="flex items-center gap-4">

@@ -1,57 +1,66 @@
-import type { HierarchyNode, SelectOption } from './types';
+import type { Organization, HierarchyKey } from '../../types';
+import { HIERARCHY_LEVELS } from '../../types';
 
 /**
- * Flatten a hierarchical tree into a flat array of select options.
- * Indent labels by level so the hierarchy is visible in the dropdown.
+ * Returns unique, non-empty values for `currentLevel` from `data`,
+ * filtered so that every row matches all `previousSelections`.
+ *
+ * @param data              - Flat organization array from the API
+ * @param currentLevel      - The hierarchy level to compute options for
+ * @param previousSelections - Map of already-selected levels → values
  */
-export const flattenHierarchy = (
-    nodes: HierarchyNode[],
-    depth = 0
-): SelectOption[] => {
-    const result: SelectOption[] = [];
-    for (const node of nodes) {
-        result.push({
-            value: node.id,
-            label: `${'  '.repeat(depth)}${node.name}`,
-            level: node.level,
-        });
-        if (node.children?.length) {
-            result.push(...flattenHierarchy(node.children, depth + 1));
-        }
+export const getAvailableOptions = (
+    data: Organization[],
+    currentLevel: HierarchyKey,
+    previousSelections: Partial<Record<HierarchyKey, string>>
+): string[] => {
+    // Filter rows that satisfy every previous selection
+    const filtered = data.filter((org) =>
+        Object.entries(previousSelections).every(
+            ([level, value]) => value && org[level as HierarchyKey] === value
+        )
+    );
+
+    // Collect unique, non-empty values for the current level
+    const seen = new Set<string>();
+    for (const org of filtered) {
+        const val = org[currentLevel];
+        if (val) seen.add(val);
     }
-    return result;
+    return [...seen];
 };
 
 /**
- * Find a node anywhere in the tree by id.
+ * Finds the `id` of the Organization that exactly matches all current
+ * selections AND has no values in any level deeper than the deepest selection.
+ * Returns `null` if no exact match exists.
  */
-export const findNodeById = (
-    nodes: HierarchyNode[],
-    id: string
-): HierarchyNode | null => {
-    for (const node of nodes) {
-        if (node.id === id) return node;
-        if (node.children?.length) {
-            const found = findNodeById(node.children, id);
-            if (found) return found;
+export const getDeepestSelectedId = (
+    data: Organization[],
+    selections: Partial<Record<HierarchyKey, string>>
+): string | null => {
+    // Find the index of the deepest selected level
+    let deepestIndex = -1;
+    for (let i = HIERARCHY_LEVELS.length - 1; i >= 0; i--) {
+        if (selections[HIERARCHY_LEVELS[i]]) {
+            deepestIndex = i;
+            break;
         }
     }
-    return null;
-};
+    if (deepestIndex < 0) return null;
 
-/**
- * Filter nodes whose name matches the search term (case-insensitive).
- */
-export const filterHierarchy = (
-    nodes: HierarchyNode[],
-    search: string
-): HierarchyNode[] => {
-    const lower = search.toLowerCase();
-    return nodes.reduce<HierarchyNode[]>((acc, node) => {
-        const filteredChildren = filterHierarchy(node.children ?? [], search);
-        if (node.name.toLowerCase().includes(lower) || filteredChildren.length) {
-            acc.push({ ...node, children: filteredChildren });
+    const match = data.find((org) => {
+        // All selected levels must match
+        for (let i = 0; i <= deepestIndex; i++) {
+            const level = HIERARCHY_LEVELS[i];
+            if (selections[level] && org[level] !== selections[level]) return false;
         }
-        return acc;
-    }, []);
+        // All levels deeper than the selection must be empty
+        for (let i = deepestIndex + 1; i < HIERARCHY_LEVELS.length; i++) {
+            if (org[HIERARCHY_LEVELS[i]]) return false;
+        }
+        return true;
+    });
+
+    return match?.id ?? null;
 };

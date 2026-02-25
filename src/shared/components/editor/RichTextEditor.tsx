@@ -1,29 +1,46 @@
-const toolbarButtons = ['Bold', 'Italic', 'Align Left', 'Align Center', 'Align Right'];
+import ReactQuill from 'react-quill-new';
+import 'react-quill-new/dist/quill.snow.css';
+import { QUILL_MODULES, QUILL_FORMATS } from './toolbar-config';
 
-const RichTextEditor = () => {
-  return (
-    <div className="flex flex-col overflow-hidden rounded-lg border border-gray-300">
-      {/* Mock toolbar */}
-      <div className="flex flex-wrap gap-1 border-b border-gray-200 bg-gray-50 px-3 py-2">
-        {toolbarButtons.map((btn) => (
-          <button
-            key={btn}
-            type="button"
-            className="rounded px-2 py-1 text-xs font-medium text-gray-600 hover:bg-gray-200"
-          >
-            {btn}
-          </button>
-        ))}
-      </div>
+interface RichTextEditorProps {
+    /** Current HTML string value (controlled). */
+    value: string;
+    /** Called with the updated HTML string on every change. */
+    onChange: (htmlString: string) => void;
+    /** Placeholder text shown when the editor is empty. */
+    placeholder?: string;
+}
 
-      {/* Text area */}
-      <textarea
-        rows={8}
-        placeholder="Start typing your document content here…"
-        className="w-full resize-none p-4 text-sm text-gray-700 outline-none"
-      />
-    </div>
-  );
+/**
+ * Controlled rich text editor backed by Quill (via react-quill-new).
+ *
+ * Output contract: the `onChange` callback always receives a valid HTML string
+ * (e.g. `<p>Hello <strong>world</strong></p>`), ready to be sent to the API.
+ *
+ * Capabilities:
+ * - Font family (all system fonts registered by Quill)
+ * - Font size: small | normal | large | huge
+ * - Formatting: Bold, Italic, Underline
+ * - Alignment: Left, Center, Right, Justify
+ */
+const RichTextEditor = ({
+    value,
+    onChange,
+    placeholder = 'Start typing your document content here…',
+}: RichTextEditorProps) => {
+    return (
+        <div className="overflow-hidden rounded-lg border border-gray-300 bg-white shadow-sm">
+            <ReactQuill
+                theme="snow"
+                value={value}
+                onChange={onChange}
+                modules={QUILL_MODULES}
+                formats={QUILL_FORMATS}
+                placeholder={placeholder}
+                style={{ minHeight: '220px' }}
+            />
+        </div>
+    );
 };
 
 export default RichTextEditor;
