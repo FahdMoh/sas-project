@@ -1,7 +1,281 @@
 @import "tailwindcss";
 
 @theme {
+  /* Global font — overrides Tailwind's built-in sans stack */
+  --font-sans: 'Aclonica', sans-serif;
+
   /* Brand identity colors */
-  --color-brand-dark:   #010103;
+  --color-brand-dark: #010103;
   --color-brand-purple: #5e27a7;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   CyberButton — 1-second glitch burst on hover
+   Each animation plays ONCE (iteration-count: 1) for 1 second,
+   then forwards holds the 100% keyframe (= neutral / no glitch).
+   ═══════════════════════════════════════════════════════════════ */
+
+/* 1. RGB channel-split on the label text ─────────────────────── */
+@keyframes cyber-glitch-rgb {
+  0% {
+    text-shadow: none;
+  }
+
+  8% {
+    text-shadow: 5px 0 #ff2df7, -5px 0 #0bd3e8;
+  }
+
+  16% {
+    text-shadow: -7px 0 #ff2df7, 7px 0 #0bd3e8;
+  }
+
+  24% {
+    text-shadow: 6px 2px #ff2df7, -6px -2px #0bd3e8;
+  }
+
+  32% {
+    text-shadow: -4px 0 #ff2df7, 4px 0 #0bd3e8;
+  }
+
+  40% {
+    text-shadow: 9px 0 #ff2df7, -9px 0 #0bd3e8;
+  }
+
+  48% {
+    text-shadow: -5px 0 #ff2df7, 5px 0 #0bd3e8;
+  }
+
+  56% {
+    text-shadow: 3px 0 #ff2df7, -3px 0 #0bd3e8;
+  }
+
+  64% {
+    text-shadow: -2px 0 #ff2df7, 2px 0 #0bd3e8;
+  }
+
+  72% {
+    text-shadow: 4px 0 #ff2df7, -4px 0 #0bd3e8;
+  }
+
+  82% {
+    text-shadow: 1px 0 #ff2df7, -1px 0 #0bd3e8;
+  }
+
+  100% {
+    text-shadow: none;
+  }
+}
+
+/* 2. Top-slice ghost ─────────────────────────────────────────── */
+@keyframes cyber-glitch-top {
+  0% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+
+  8% {
+    opacity: 0.90;
+    transform: translateX(-6px);
+  }
+
+  16% {
+    opacity: 0.85;
+    transform: translateX(8px);
+  }
+
+  24% {
+    opacity: 0.75;
+    transform: translateX(-10px);
+  }
+
+  32% {
+    opacity: 0.90;
+    transform: translateX(6px);
+  }
+
+  40% {
+    opacity: 0.80;
+    transform: translateX(-5px);
+  }
+
+  48% {
+    opacity: 0.75;
+    transform: translateX(7px);
+  }
+
+  56% {
+    opacity: 0.60;
+    transform: translateX(-4px);
+  }
+
+  64% {
+    opacity: 0.50;
+    transform: translateX(3px);
+  }
+
+  72% {
+    opacity: 0.35;
+    transform: translateX(-2px);
+  }
+
+  82% {
+    opacity: 0.15;
+    transform: translateX(1px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+}
+
+/* 3. Bottom-slice ghost (opposite phase) ────────────────────── */
+@keyframes cyber-glitch-bottom {
+  0% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+
+  8% {
+    opacity: 0.85;
+    transform: translateX(6px);
+  }
+
+  16% {
+    opacity: 0.90;
+    transform: translateX(-8px);
+  }
+
+  24% {
+    opacity: 0.70;
+    transform: translateX(10px);
+  }
+
+  32% {
+    opacity: 0.85;
+    transform: translateX(-6px);
+  }
+
+  40% {
+    opacity: 0.75;
+    transform: translateX(5px);
+  }
+
+  48% {
+    opacity: 0.80;
+    transform: translateX(-7px);
+  }
+
+  56% {
+    opacity: 0.60;
+    transform: translateX(4px);
+  }
+
+  64% {
+    opacity: 0.50;
+    transform: translateX(-3px);
+  }
+
+  72% {
+    opacity: 0.30;
+    transform: translateX(2px);
+  }
+
+  82% {
+    opacity: 0.10;
+    transform: translateX(-1px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+}
+
+/* 4. Background color strobe ─────────────────────────────────── */
+@keyframes cyber-glitch-bg {
+  0% {
+    background-color: #0bd3e8;
+  }
+
+  10% {
+    background-color: #c400ff;
+  }
+
+  20% {
+    background-color: #0bd3e8;
+  }
+
+  30% {
+    background-color: #7b2fff;
+  }
+
+  40% {
+    background-color: #0bd3e8;
+  }
+
+  52% {
+    background-color: #ff2df7;
+  }
+
+  62% {
+    background-color: #0bd3e8;
+  }
+
+  72% {
+    background-color: #9b30ff;
+  }
+
+  82% {
+    background-color: #0bd3e8;
+  }
+
+  100% {
+    background-color: #0bd3e8;
+  }
+}
+
+/* 5. Scanline sweep ──────────────────────────────────────────── */
+@keyframes cyber-glitch-scan {
+  0% {
+    opacity: 0.7;
+    background-position: 0% -100%;
+  }
+
+  80% {
+    opacity: 0.7;
+    background-position: 0% 200%;
+  }
+
+  100% {
+    opacity: 0;
+    background-position: 0% 200%;
+  }
+}
+
+/* ── Trigger: 1 s burst, plays once, holds final (neutral) frame ── */
+
+.cyber-btn:hover:not(:disabled),
+.cyber-btn:focus-visible:not(:disabled) {
+  animation: cyber-glitch-bg 0.3s steps(1) 1 forwards;
+}
+
+.cyber-btn:hover:not(:disabled) .cyber-btn-label,
+.cyber-btn:focus-visible:not(:disabled) .cyber-btn-label {
+  animation: cyber-glitch-rgb 0.3s steps(1) 1 forwards;
+}
+
+.cyber-btn:hover:not(:disabled) .cyber-btn-ghost-top,
+.cyber-btn:focus-visible:not(:disabled) .cyber-btn-ghost-top {
+  animation: cyber-glitch-top 0.3s steps(1) 1 forwards;
+}
+
+.cyber-btn:hover:not(:disabled) .cyber-btn-ghost-bottom,
+.cyber-btn:focus-visible:not(:disabled) .cyber-btn-ghost-bottom {
+  animation: cyber-glitch-bottom 0.3s steps(1) 1 0.04s forwards;
+}
+
+.cyber-btn:hover:not(:disabled) .cyber-btn-scanline,
+.cyber-btn:focus-visible:not(:disabled) .cyber-btn-scanline {
+  animation: cyber-glitch-scan 0.3s linear 1 forwards;
 }

@@ -6,6 +6,7 @@ import { getSenderOrganizations, getReceivedOrganizations } from '@/features/org
 import { submitDocument } from '@/features/document/api';
 import type { Organization } from '@/features/organizations/types';
 import { CyberButton } from '@/shared/components/ui/CyberButton';
+import { PageMask } from '@/shared/components/ui/PageMask';
 
 // ---------------------------------------------------------------------------
 // Types
@@ -123,12 +124,14 @@ const DocumentFormPage = () => {
 
     // --- Render ---
     return (
-        <div className="min-h-screen w-full bg-black p-8 text-white">
-            <div className="mx-auto max-w-3xl rounded-xl bg-white p-8 shadow-md">
-                <h1 className="mb-6 text-2xl font-bold text-gray-800">New Document</h1>
+        <div className="flex flex-col relative min-h-screen w-full bg-black text-white">
+            <PageMask />
+
+            <div className="flex flex-col p-8 flex-grow">
+                <div className="mx-auto  w-full rounded-xl border border-[#ea8cff]/20 bg-black p-8">
 
                 {isLoadingOrgs ? (
-                    <p className="text-sm text-gray-400">Loading organizations…</p>
+                    <p className="text-sm text-[#ea8cff]/60">Loading organizations…</p>
                 ) : (
                     <form onSubmit={handleSubmit} className="flex flex-col gap-6">
 
@@ -136,24 +139,24 @@ const DocumentFormPage = () => {
                         {submitError && (
                             <div
                                 role="alert"
-                                className="rounded-lg border border-red-200 bg-red-50 px-4 py-3"
+                                className="rounded-lg border border-red-500/50 bg-red-900/20 px-4 py-3"
                             >
-                                <p className="text-sm font-medium text-red-700">{submitError}</p>
+                                <p className="text-sm font-bold text-red-400">{submitError}</p>
                             </div>
                         )}
 
                         {/* ── Sender Organization ── */}
-                        <section className="flex flex-col gap-2">
-                            <h2 className="text-sm font-semibold text-gray-700">
-                                Sender Organization
-                            </h2>
+                        <section className="flex flex-col gap-4">
+                            {/* <h2 className="font-black italic tracking-widest text-sm text-[#ea8cff]">
+                                SENDER ORGANIZATION
+                            </h2> */}
                             <HierarchySelector
                                 data={senderOrgs}
                                 label="Select sending organization"
                                 onChange={setSenderOrgId}
                             />
                             {senderOrgId && (
-                                <p className="text-xs text-green-600">
+                                <p className="text-xs text-green-400">
                                     ✓ Selected ID:{' '}
                                     <span className="font-mono">{senderOrgId}</span>
                                 </p>
@@ -161,9 +164,9 @@ const DocumentFormPage = () => {
                         </section>
 
                         {/* ── Received Organizations ── */}
-                        <section className="flex flex-col gap-3">
-                            <h2 className="text-sm font-semibold text-gray-700">
-                                Received Organizations
+                        <section className="flex flex-col gap-4">
+                            <h2 className="font-black italic tracking-widest text-sm text-[#ea8cff]">
+                                RECEIVED ORGANIZATIONS
                             </h2>
 
                             {recipients.map((recipient, index) => (
@@ -177,7 +180,7 @@ const DocumentFormPage = () => {
                                         <button
                                             type="button"
                                             onClick={() => removeRecipient(recipient.key)}
-                                            className="absolute right-3 top-3 text-xs text-red-400 hover:text-red-600"
+                                            className="absolute right-3 top-3 text-xs text-red-400 hover:text-red-300"
                                             title="Remove recipient"
                                         >
                                             ✕ Remove
@@ -196,16 +199,11 @@ const DocumentFormPage = () => {
                         </section>
 
                         {/* ── Document Content ── */}
-                        <section className="flex flex-col gap-1">
-                            <h2 className="text-sm font-semibold text-gray-700">
-                                Document Content
-                            </h2>
-                            <RichTextEditor
-                                value={content}
-                                onChange={setContent}
-                                placeholder="Write your document content here…"
-                            />
-                        </section>
+                        <RichTextEditor
+                            value={content}
+                            onChange={setContent}
+                            placeholder="Write your document content here…"
+                        />
 
                         {/* ── Submit ── */}
                         <CyberButton
@@ -213,10 +211,12 @@ const DocumentFormPage = () => {
                             disabled={isSubmitting}
                             className="mt-2 self-end px-10 py-5 min-w-[220px]"
                         >
-                            {isSubmitting ? 'Submitting…' : 'Submit Document'}
+                            {isSubmitting ? 'Submitting…' : 'Submit'}
                         </CyberButton>
                     </form>
                 )}
+            </div>
+            {/* /card */}
             </div>
         </div>
     );

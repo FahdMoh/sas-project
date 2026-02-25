@@ -1,6 +1,7 @@
 import type { Organization, HierarchyKey } from '../../types';
 import { HIERARCHY_LEVELS } from '../../types';
 import { useHierarchy } from './useHierarchy';
+import { CyberInput } from '@/shared/components/ui/CyberInput';
 
 /** Human-readable label for each hierarchy key */
 const LEVEL_LABELS: Record<HierarchyKey, string> = {
@@ -18,17 +19,18 @@ interface HierarchySelectorProps {
 }
 
 /**
- * Renders a dynamic, cascading set of <select> dropdowns from a flat
- * Organization array, following the exact HIERARCHY_LEVELS sequence.
+ * Renders a dynamic, cascading set of CyberInput (as="select") dropdowns
+ * from a flat Organization array, following the exact HIERARCHY_LEVELS sequence.
  *
  * RULES ENFORCED:
- * 1. Dynamic Generation  — A dropdown for level N appears only when the
- *    filtered options for that level are non-empty.
- * 2. Locking Mechanism   — The Entity (level 0) is always enabled.
- *    Subsequent levels are ALWAYS rendered (if any global data exists for
- *    them) but are disabled and empty until their immediate parent has a
- *    selection.
+ * 1. Dynamic Generation  — A dropdown for level N appears only when filtered
+ *    options are non-empty.
+ * 2. Locking Mechanism   — Entity (level 0) is always enabled. Subsequent
+ *    levels are rendered disabled and empty until their parent has a selection.
  * 3. Reset               — Handled upstream in useHierarchy.
+ *
+ * Dark background on the fieldset is required so CyberInput's floating
+ * labels (bg-black) mask the border correctly.
  */
 const HierarchySelector = ({ data, label, onChange }: HierarchySelectorProps) => {
     const { selections, handleSelectionChange, getOptionsForLevel } = useHierarchy(
@@ -37,61 +39,58 @@ const HierarchySelector = ({ data, label, onChange }: HierarchySelectorProps) =>
     );
 
     return (
-        <fieldset className="flex flex-col gap-3 rounded-lg border border-gray-200 bg-gray-50 p-4">
-            <legend className="px-1 text-sm font-semibold text-gray-700">{label}</legend>
+        <fieldset className="flex flex-col gap-3 rounded-xl border border-[#ea8cff]/30 bg-black p-4 pt-6">
+            <legend className="px-1 text-sm font-black italic tracking-widest text-[#ea8cff]">
+                {label.toUpperCase()}
+            </legend>
 
             {data.length === 0 ? (
-                <p className="text-xs text-gray-400">No organizations available.</p>
+                <p className="text-xs text-gray-500">No organizations available.</p>
             ) : (
-                <div className="flex flex-wrap gap-3">
+                <div className="flex  items-start gap-6  mt-4">
                     {HIERARCHY_LEVELS.map((level, index) => {
                         const parentLevel = index > 0 ? HIERARCHY_LEVELS[index - 1] : null;
                         const parentSelected =
                             parentLevel === null || !!selections[parentLevel];
 
-                        // Rule 2: Only render if this level has ANY data globally —
-                        // prevents showing an empty level for orgs that don't go this deep.
+                        // Rule 2: Only render if this level has ANY global data
                         const hasGlobalData = data.some((org) => !!org[level]);
                         if (!hasGlobalData) return null;
 
-                        // Filtered options reflect the current parent selections.
+                        // Filtered options based on current parent selections
                         const filteredOptions = getOptionsForLevel(level);
 
-                        // Rule 1: If the parent IS selected but yields zero children,
-                        // hide this level (the current branch doesn't go this deep).
+                        // Rule 1: Hide if parent is selected but yields no children
                         if (parentSelected && filteredOptions.length === 0) return null;
 
                         const isDisabled = !parentSelected;
 
-                        // Rule 2 (key fix): When disabled, show NO options so the
-                        // dropdown doesn't misleadingly display global (unfiltered) data.
-                        // Options are only populated once the parent level is selected.
+                        // Rule 2 (fix): Empty when disabled — no unfiltered global options
                         const displayOptions = isDisabled ? [] : filteredOptions;
 
                         return (
-                            <div key={level} className="flex flex-col gap-1">
-                                <label className="text-xs font-medium text-gray-500">
-                                    {LEVEL_LABELS[level]}
-                                </label>
-                                <select
-                                    value={selections[level] ?? ''}
-                                    disabled={isDisabled}
-                                    onChange={(e) =>
-                                        handleSelectionChange(
-                                            level as HierarchyKey,
-                                            e.target.value
-                                        )
-                                    }
-                                    className="min-w-[160px] rounded-md border border-gray-300 bg-white px-3 py-1.5 text-sm text-gray-700 focus:outline-none focus:ring-1 focus:ring-blue-500 disabled:cursor-not-allowed disabled:bg-gray-100 disabled:opacity-60"
-                                >
-                                    <option value="">— {LEVEL_LABELS[level]} —</option>
-                                    {displayOptions.map((opt) => (
-                                        <option key={opt} value={opt}>
-                                            {opt}
-                                        </option>
-                                    ))}
-                                </select>
-                            </div>
+                            <CyberInput
+                                key={level}
+                                as="select"
+                                id={level}
+                                label={LEVEL_LABELS[level]}
+                                value={selections[level] ?? ''}
+                                disabled={isDisabled}
+                                onChange={(e) =>
+                                    handleSelectionChange(
+                                        level as HierarchyKey,
+                                        e.target.value
+                                    )
+                                }
+                                className="w-[200px]"
+                            >
+                                <option value="">— {LEVEL_LABELS[level]} —</option>
+                                {displayOptions.map((opt) => (
+                                    <option key={opt} value={opt}>
+                                        {opt}
+                                    </option>
+                                ))}
+                            </CyberInput>
                         );
                     })}
                 </div>
