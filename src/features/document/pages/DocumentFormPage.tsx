@@ -5,6 +5,7 @@ import RichTextEditor from '@/shared/components/editor/RichTextEditor';
 import { getSenderOrganizations, getReceivedOrganizations } from '@/features/organizations/api';
 import { submitDocument } from '@/features/document/api';
 import type { Organization } from '@/features/organizations/types';
+import { CyberButton } from '@/shared/components/ui/CyberButton';
 
 // ---------------------------------------------------------------------------
 // Types
@@ -122,7 +123,7 @@ const DocumentFormPage = () => {
 
     // --- Render ---
     return (
-        <div className="min-h-screen bg-gray-50 p-8">
+        <div className="min-h-screen w-full bg-black p-8 text-white">
             <div className="mx-auto max-w-3xl rounded-xl bg-white p-8 shadow-md">
                 <h1 className="mb-6 text-2xl font-bold text-gray-800">New Document</h1>
 
@@ -185,13 +186,13 @@ const DocumentFormPage = () => {
                                 </div>
                             ))}
 
-                            <button
+                            <CyberButton
                                 type="button"
                                 onClick={addRecipient}
-                                className="w-fit rounded-md border border-blue-400 px-4 py-1.5 text-sm font-medium text-blue-600 hover:bg-blue-50"
+                                className="px-8 py-4 min-w-[200px] text-base md:text-base"
                             >
-                                + Add More Recipients
-                            </button>
+                                + Add Recipient
+                            </CyberButton>
                         </section>
 
                         {/* ── Document Content ── */}
@@ -207,13 +208,13 @@ const DocumentFormPage = () => {
                         </section>
 
                         {/* ── Submit ── */}
-                        <button
+                        <CyberButton
                             type="submit"
                             disabled={isSubmitting}
-                            className="mt-2 self-end rounded-lg bg-blue-600 px-8 py-2 text-sm font-semibold text-white hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-60"
+                            className="mt-2 self-end px-10 py-5 min-w-[220px]"
                         >
                             {isSubmitting ? 'Submitting…' : 'Submit Document'}
-                        </button>
+                        </CyberButton>
                     </form>
                 )}
             </div>

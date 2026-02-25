@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../hooks';
 import { isValidEmail } from '@/shared/utils/validation';
+import { CyberButton } from '@/shared/components/ui/CyberButton';
 
 const LoginPage = () => {
   const navigate = useNavigate();
@@ -31,7 +32,7 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gray-100 p-8">
+    <div className="flex min-h-screen w-full items-center justify-center bg-black p-8 text-white">
       <div className="w-full max-w-sm rounded-xl bg-white p-8 shadow-md">
         <h1 className="mb-6 text-2xl font-bold text-gray-800">Sign In</h1>
 
@@ -83,13 +84,13 @@ const LoginPage = () => {
           </div>
 
           {/* Submit */}
-          <button
+          <CyberButton
             type="submit"
             disabled={isLoading}
-            className="mt-2 rounded-lg bg-blue-600 py-2 text-sm font-semibold text-white hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-60"
+            className="mt-2 w-full py-5"
           >
             {isLoading ? 'Signing in…' : 'Submit'}
-          </button>
+          </CyberButton>
 
   
         </form>

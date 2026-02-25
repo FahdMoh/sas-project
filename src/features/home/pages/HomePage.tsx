@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { useAuthStore } from '@/features/auth/store';
 import { useLogout } from '@/features/auth/hooks';
+import { CyberButton } from '@/shared/components/ui/CyberButton';
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -8,39 +9,38 @@ const HomePage = () => {
   const { handleLogout } = useLogout();
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center gap-6 bg-gray-50 p-8">
-      <h1 className="text-4xl font-bold text-gray-800">Welcome to SAS Project</h1>
+    <div className="flex min-h-screen w-full flex-col items-center justify-center gap-8 bg-gradient-to-b from-brand-dark to-brand-purple p-8 text-white">
+      <h1 className="text-4xl font-bold text-white">Welcome to SAS Project</h1>
 
+      <p className="text-white/60">Select an action to get started.</p>
 
-      <p className="text-gray-500">Select an action to get started.</p>
-
-      <div className="flex items-center gap-4">
+      <div className="flex flex-wrap items-center justify-center gap-6">
         {!isAuthenticated ? (
           // Unauthenticated: show Login button only
-          <button
+          <CyberButton
             onClick={() => navigate('/login')}
-            className="rounded-lg bg-blue-600 px-6 py-2 text-sm font-semibold text-white hover:bg-blue-700"
+            className="min-w-[160px] px-10 py-5"
           >
             Login
-          </button>
+          </CyberButton>
         ) : (
           // Authenticated: hide Login, show status + form + logout buttons
           <>
-            <p className="text-sm font-medium text-green-600">
+            <p className="text-sm font-medium text-green-400">
               ✓ You are already logged in.
             </p>
-            <button
+            <CyberButton
               onClick={() => navigate('/form')}
-              className="rounded-lg bg-gray-700 px-6 py-2 text-sm font-semibold text-white hover:bg-gray-800"
+              className="min-w-[200px] px-10 py-5"
             >
-              Go to Document Form
-            </button>
-            <button
+              Go to Form
+            </CyberButton>
+            <CyberButton
               onClick={handleLogout}
-              className="rounded-lg border border-red-300 px-6 py-2 text-sm font-semibold text-red-600 hover:bg-red-50"
+              className="min-w-[140px] px-8 py-5"
             >
               Logout
-            </button>
+            </CyberButton>
           </>
         )}
       </div>

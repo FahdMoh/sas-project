@@ -1,8 +1,7 @@
 @import "tailwindcss";
 
-/* testing */
-/* @theme {
-  --color-neon-blue: #00f3ff;
-  --color-cyber-pink: #ff00ff;
-  --font-display: "Orbitron", sans-serif;
-} */
+@theme {
+  /* Brand identity colors */
+  --color-brand-dark:   #010103;
+  --color-brand-purple: #5e27a7;
+}
