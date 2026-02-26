@@ -1,0 +1,5082 @@
+[
+    {
+        "id": "GO-BB-OM",
+        "name": "محافظة بابل - مكتب المحافظ",
+        "entity_name": "محافظة بابل",
+        "department_name": "مكتب المحافظ",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MO-SR",
+        "name": "وزارة النفط - شركة مصافي الجنوب",
+        "entity_name": "وزارة النفط",
+        "department_name": "شركة مصافي الجنوب",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-01-02",
+        "name": "دائرة الإدارية والمالية - قسم الشؤون الإدارية - شعبة البريد المركزي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الشؤون الإدارية",
+        "unit_name": "شعبة البريد المركزي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-02-01",
+        "name": "دائرة التفتيش والمتابعة - قسم التنسيق والمتابعة - شعبة الانترنيت والاحصاء",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم التنسيق والمتابعة",
+        "unit_name": "شعبة الانترنيت والاحصاء",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HS-BH",
+        "name": "إدارة شركة الفنادق السياحية - فندق بابل",
+        "entity_name": "إدارة شركة الفنادق السياحية",
+        "department_name": "فندق بابل",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-04",
+        "name": "رئيس الهيئة - قسم العلاقات والاعلام",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم العلاقات والاعلام",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "WR-NW",
+        "name": "وزارة الموارد المائية - المركز الوطني لإدارة الموارد المائية",
+        "entity_name": "وزارة الموارد المائية",
+        "department_name": "المركز الوطني لإدارة الموارد المائية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-04-03",
+        "name": "دائرة الإدارية والمالية - قسم السلامة المهنية - شعبة البيئة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم السلامة المهنية",
+        "unit_name": "شعبة البيئة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "SC-CN",
+        "name": "مجلس الدولة - مكتب المستشار",
+        "entity_name": "مجلس الدولة",
+        "department_name": "مكتب المستشار",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-02-05",
+        "name": "رئيس الهيئة - قسم التخطيط والمتابعة - شعبة السياسات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم التخطيط والمتابعة",
+        "unit_name": "شعبة السياسات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GO-KR-OM",
+        "name": "محافظة كركوك - مكتب المحافظ",
+        "entity_name": "محافظة كركوك",
+        "department_name": "مكتب المحافظ",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-00-01",
+        "name": "دائرة الإدارية والمالية - شعبة مكتب المدير العام",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "شعبة مكتب المدير العام",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MC-CI",
+        "name": "وزارة الثقافة والسياحة والآثار - قسم العقود والاستثمار",
+        "entity_name": "وزارة الثقافة والسياحة والآثار",
+        "department_name": "قسم العقود والاستثمار",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MC-MO",
+        "name": "وزارة الثقافة والسياحة والآثار - مكتب الوزير",
+        "entity_name": "وزارة الثقافة والسياحة والآثار",
+        "department_name": "مكتب الوزير",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FA-NA",
+        "name": "وزارة الخارجية - دائرة أمريكا الشمالية والجنوبية",
+        "entity_name": "وزارة الخارجية",
+        "department_name": "دائرة أمريكا الشمالية والجنوبية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "CM",
+        "name": "اللجان - اللجنة التحضيرية - إعلان سامراء عاصمة العراق الإسلامية",
+        "entity_name": "اللجان",
+        "department_name": "اللجنة التحضيرية",
+        "section_name": "إعلان سامراء عاصمة العراق الإسلامية",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-04-01",
+        "name": "رئيس الهيئة - قسم العلاقات والاعلام - الشعبة الفنية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم العلاقات والاعلام",
+        "unit_name": "الشعبة الفنية",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-FA",
+        "name": "وزارة التعليم العالي والبحث العلمي - جامعة الفارابي",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "جامعة الفارابي",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MC",
+        "name": "وزارة الثقافة والسياحة والآثار",
+        "entity_name": "وزارة الثقافة والسياحة والآثار",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FA-PR",
+        "name": "وزارة الخارجية - دائرة المراسم",
+        "entity_name": "وزارة الخارجية",
+        "department_name": "دائرة المراسم",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GO-MA-OM",
+        "name": "محافظة ميسان - مكتب المحافظ",
+        "entity_name": "محافظة ميسان",
+        "department_name": "مكتب المحافظ",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-12",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في نينوى",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في نينوى",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "WR-RL",
+        "name": "وزارة الموارد المائية - الهيئة العامة لمشاريع الاستصلاح",
+        "entity_name": "وزارة الموارد المائية",
+        "department_name": "الهيئة العامة لمشاريع الاستصلاح",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MC-CR",
+        "name": "وزارة الثقافة والسياحة والآثار - دائرة العلاقات الثقافية العامة",
+        "entity_name": "وزارة الثقافة والسياحة والآثار",
+        "department_name": "دائرة العلاقات الثقافية العامة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "PS-TA",
+        "name": "القطاع الخاص - رابطة شركات السفر والسياحة",
+        "entity_name": "القطاع الخاص",
+        "department_name": "رابطة شركات السفر والسياحة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-04-02",
+        "name": "دائرة الإدارية والمالية - قسم السلامة المهنية - شعبة السلامة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم السلامة المهنية",
+        "unit_name": "شعبة السلامة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-04-05",
+        "name": "دائرة المرافق السياحية - قسم جزيرة الاعراس السياحية - شعبة الإدارة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "قسم جزيرة الاعراس السياحية",
+        "unit_name": "شعبة الإدارة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MT",
+        "name": "وزارة النقل",
+        "entity_name": "وزارة النقل",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "PM-NC-NR",
+        "name": "رئاسة مجلس الوزراء - مستشارية الأمن القومي - مركز النهرين للدراسات الاستراتيجية",
+        "entity_name": "رئاسة مجلس الوزراء",
+        "department_name": "مستشارية الأمن القومي",
+        "section_name": "مركز النهرين للدراسات الاستراتيجية",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-S2",
+        "name": "أمانة بغداد - دائرة بلدية الصدر الثانية",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة بلدية الصدر الثانية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-06-02",
+        "name": "رئيس الهيئة - قسم العقود والاستثمار - شعبة المزايدات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم العقود والاستثمار",
+        "unit_name": "شعبة المزايدات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-01-01",
+        "name": "دائرة المرافق السياحية - قسم الخدمات الفندقية - شعبة بغداد",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "قسم الخدمات الفندقية",
+        "unit_name": "شعبة بغداد",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MJ-AZ-PR",
+        "name": "مجلس القضاء الأعلى - محكمة جنح العزيزية - رئاسة المحكمة",
+        "entity_name": "مجلس القضاء الأعلى",
+        "department_name": "محكمة جنح العزيزية",
+        "section_name": "رئاسة المحكمة",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "EN-TD",
+        "name": "وزارة البيئة - مكتب الوكيل الفني",
+        "entity_name": "وزارة البيئة",
+        "department_name": "مكتب الوكيل الفني",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "IC-AU-TS",
+        "name": "الهيئة المستقلة - ديوان الرقابة المالية - هيئة الرقابة الرابعة (السياحة)",
+        "entity_name": "الهيئة المستقلة",
+        "department_name": "ديوان الرقابة المالية",
+        "section_name": "هيئة الرقابة الرابعة (السياحة)",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "PC",
+        "name": "مجالس مهنية",
+        "entity_name": "مجالس مهنية",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FI-ZB",
+        "name": "وزارة المالية - مصرف زين العراق الإسلامي",
+        "entity_name": "وزارة المالية",
+        "department_name": "مصرف زين العراق الإسلامي",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-05",
+        "name": "رئيس الهيئة - قسم الشؤون القانونية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم الشؤون القانونية",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "IC-RT",
+        "name": "الهيئة المستقلة - رابطة الرافدين لتنشيط السياحة",
+        "entity_name": "الهيئة المستقلة",
+        "department_name": "رابطة الرافدين لتنشيط السياحة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-KZ",
+        "name": "أمانة بغداد - دائرة بلدية الكاظمية",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة بلدية الكاظمية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-SH",
+        "name": "أمانة بغداد - دائرة بلدية الشعب",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة بلدية الشعب",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GO-DQ-AP",
+        "name": "محافظة ذي قار - مكتب معاون المحافظ لشؤون التخطيط",
+        "entity_name": "محافظة ذي قار",
+        "department_name": "مكتب معاون المحافظ لشؤون التخطيط",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-05-05",
+        "name": "رئيس الهيئة - قسم الشؤون القانونية - شعبة الاستشارات القانونية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم الشؤون القانونية",
+        "unit_name": "شعبة الاستشارات القانونية",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MT-MO",
+        "name": "وزارة النقل - مكتب الوزير",
+        "entity_name": "وزارة النقل",
+        "department_name": "مكتب الوزير",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "AG-MO",
+        "name": "وزارة الزراعة - مكتب الوزير",
+        "entity_name": "وزارة الزراعة",
+        "department_name": "مكتب الوزير",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "ED-K1",
+        "name": "وزارة التربية - مديرية تربية الكرخ الأولى",
+        "entity_name": "وزارة التربية",
+        "department_name": "مديرية تربية الكرخ الأولى",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-09-02",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في الديوانية - شعبة التصنيف السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في الديوانية",
+        "unit_name": "شعبة التصنيف السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-00-02",
+        "name": "دائرة المرافق السياحية - شعبة جزيرة بغداد السياحية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "شعبة جزيرة بغداد السياحية",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HO-HQ",
+        "name": "وزارة الإسكان والأعمار والتنمية - المديرية العامة لديوان الوزارة",
+        "entity_name": "وزارة الإسكان والأعمار والتنمية",
+        "department_name": "المديرية العامة لديوان الوزارة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MOJ-JR",
+        "name": "وزارة العدل - دائرة العلاقات العدلية",
+        "entity_name": "وزارة العدل",
+        "department_name": "دائرة العلاقات العدلية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-06",
+        "name": "رئيس الهيئة - قسم العقود والاستثمار",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم العقود والاستثمار",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-11-03",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في الانبار - شعبة الإدارة والمحاسبة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في الانبار",
+        "unit_name": "شعبة الإدارة والمحاسبة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-DS",
+        "name": "أمانة بغداد - دائرة التصاميم",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة التصاميم",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MOJ-JP",
+        "name": "وزارة العدل - دائرة التخطيط العدلي",
+        "entity_name": "وزارة العدل",
+        "department_name": "دائرة التخطيط العدلي",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-08-03",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في صلاح الدين - شعبة الإدارة والمحاسبة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في صلاح الدين",
+        "unit_name": "شعبة الإدارة والمحاسبة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-11-01",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في الانبار - شعبة التفتيش السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في الانبار",
+        "unit_name": "شعبة التفتيش السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "CC-GC",
+        "name": "اتحاد الغرف التجارية - غرفة التجارة",
+        "entity_name": "اتحاد الغرف التجارية",
+        "department_name": "غرفة التجارة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "PM-LG",
+        "name": "رئاسة مجلس الوزراء - الدائرة القانونية",
+        "entity_name": "رئاسة مجلس الوزراء",
+        "department_name": "الدائرة القانونية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-05-01",
+        "name": "رئيس الهيئة - قسم الشؤون القانونية - شعبة الدعاوى",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم الشؤون القانونية",
+        "unit_name": "شعبة الدعاوى",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "PM-IS",
+        "name": "رئاسة مجلس الوزراء - جهاز المخابرات العراقي",
+        "entity_name": "رئاسة مجلس الوزراء",
+        "department_name": "جهاز المخابرات العراقي",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-05",
+        "name": "دائرة الإدارية والمالية - قسم الشؤون المالية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الشؤون المالية",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FI",
+        "name": "وزارة المالية",
+        "entity_name": "وزارة المالية",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MI-CS",
+        "name": "وزارة الداخلية - مديرية الأحوال المدنية والجوازات",
+        "entity_name": "وزارة الداخلية",
+        "department_name": "مديرية الأحوال المدنية والجوازات",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MC-EP",
+        "name": "وزارة الثقافة والسياحة والآثار - دائرة قصر المؤتمرات",
+        "entity_name": "وزارة الثقافة والسياحة والآثار",
+        "department_name": "دائرة قصر المؤتمرات",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "SU-DT",
+        "name": "ديوان الوقف السني - قسم السياحة الدينية",
+        "entity_name": "ديوان الوقف السني",
+        "department_name": "قسم السياحة الدينية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "TB",
+        "name": "مجلس إدارة الهيئة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "مجلس إدارة الهيئة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-03-01",
+        "name": "رئيس الهيئة - قسم الاستشارات الهندسية - الشعبة الهندسية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم الاستشارات الهندسية",
+        "unit_name": "الشعبة الهندسية",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-RS",
+        "name": "أمانة بغداد - دائرة بلدية الرشيد",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة بلدية الرشيد",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "AG",
+        "name": "وزارة الزراعة",
+        "entity_name": "وزارة الزراعة",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "LB-MO",
+        "name": "وزارة العمل والشؤون الاجتماعية - مكتب الوزير",
+        "entity_name": "وزارة العمل والشؤون الاجتماعية",
+        "department_name": "مكتب الوزير",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MI-CD",
+        "name": "وزارة الداخلية - مديرية الدفاع المدني",
+        "entity_name": "وزارة الداخلية",
+        "department_name": "مديرية الدفاع المدني",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MC-AD",
+        "name": "وزارة الثقافة والسياحة والآثار - دائرة الشؤون الإدارية",
+        "entity_name": "وزارة الثقافة والسياحة والآثار",
+        "department_name": "دائرة الشؤون الإدارية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A",
+        "name": "دائرة الإدارية والمالية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FA-AR",
+        "name": "وزارة الخارجية - الدائرة العربية",
+        "entity_name": "وزارة الخارجية",
+        "department_name": "الدائرة العربية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "IC-IN-BG",
+        "name": "الهيئة المستقلة - هيئة النزاهة الاتحادية - مديرية تحقيق بغداد",
+        "entity_name": "الهيئة المستقلة",
+        "department_name": "هيئة النزاهة الاتحادية",
+        "section_name": "مديرية تحقيق بغداد",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-14-01",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في كربلاء المقدسة - شعبة التفتيش السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في كربلاء المقدسة",
+        "unit_name": "شعبة التفتيش السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GO-AN-OM",
+        "name": "محافظة الانبار - مكتب المحافظ",
+        "entity_name": "محافظة الانبار",
+        "department_name": "مكتب المحافظ",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MC-SP",
+        "name": "وزارة الثقافة والسياحة والآثار - قسم التصاريح الأمنية",
+        "entity_name": "وزارة الثقافة والسياحة والآثار",
+        "department_name": "قسم التصاريح الأمنية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "PC-AC",
+        "name": "مجالس مهنية - مجلس مراقبة المهنة وتدقيق الحسابات",
+        "entity_name": "مجالس مهنية",
+        "department_name": "مجلس مراقبة المهنة وتدقيق الحسابات",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-SD",
+        "name": "وزارة التعليم العالي والبحث العلمي - جامعة الأمام الصادق (ع)",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "جامعة الأمام الصادق (ع)",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-UB",
+        "name": "وزارة التعليم العالي والبحث العلمي - جامعة بغداد",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "جامعة بغداد",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-RC",
+        "name": "أمانة بغداد - دائرة بلدية مركز الرصافة",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة بلدية مركز الرصافة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-08-02",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في صلاح الدين - شعبة التصنيف السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في صلاح الدين",
+        "unit_name": "شعبة التصنيف السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-03-02",
+        "name": "دائرة الإدارية والمالية - قسم الصيانة - شعبة المدني",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الصيانة",
+        "unit_name": "شعبة المدني",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-G",
+        "name": "دائرة المجاميع السياحية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المجاميع السياحية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "TR",
+        "name": "وزارة التجارة",
+        "entity_name": "وزارة التجارة",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MT-DR",
+        "name": "وزارة النقل - مشروع طريق التنمية",
+        "entity_name": "وزارة النقل",
+        "department_name": "مشروع طريق التنمية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MI-VP",
+        "name": "وزارة الداخلية - مديرية حماية الشخصيات والمنشأة",
+        "entity_name": "وزارة الداخلية",
+        "department_name": "مديرية حماية الشخصيات والمنشأة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-01-03",
+        "name": "دائرة الإدارية والمالية - قسم الشؤون الإدارية - شعبة التقاعد",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الشؤون الإدارية",
+        "unit_name": "شعبة التقاعد",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-08-02",
+        "name": "دائرة المرافق السياحية - قسم التدريب والتطوير السياحي - شعبة االتطوير",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "قسم التدريب والتطوير السياحي",
+        "unit_name": "شعبة االتطوير",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "DE-SG",
+        "name": "وزارة الدفاع - أمانة السر العام",
+        "entity_name": "وزارة الدفاع",
+        "department_name": "أمانة السر العام",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-KR",
+        "name": "أمانة بغداد - دائرة بلدية الكرادة",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة بلدية الكرادة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MK-PA",
+        "name": "مجلس القضاء الأعلى - رئاسة الأدعاء العام",
+        "entity_name": "مجلس القضاء الأعلى",
+        "department_name": "رئاسة الأدعاء العام",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FA",
+        "name": "وزارة الخارجية",
+        "entity_name": "وزارة الخارجية",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MOJ-OM",
+        "name": "وزارة العدل - مكتب الوزير",
+        "entity_name": "وزارة العدل",
+        "department_name": "مكتب الوزير",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HPM",
+        "name": "رئيس الوزراء",
+        "entity_name": "رئيس الوزراء",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-G-03-03",
+        "name": "دائرة المجاميع السياحية - قسم السياحة الدينية - شعبة السمات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المجاميع السياحية",
+        "section_name": "قسم السياحة الدينية",
+        "unit_name": "شعبة السمات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-AA",
+        "name": "أمانة بغداد - وكالة أمانة بغداد للشؤون الإدارية",
+        "entity_name": "أمانة بغداد",
+        "department_name": "وكالة أمانة بغداد للشؤون الإدارية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FA-SI",
+        "name": "وزارة الخارجية - معهد الخدمة الخارجية",
+        "entity_name": "وزارة الخارجية",
+        "department_name": "معهد الخدمة الخارجية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FA-FN",
+        "name": "وزارة الخارجية - الدائرة المالية",
+        "entity_name": "وزارة الخارجية",
+        "department_name": "الدائرة المالية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MP-QC",
+        "name": "وزارة التخطيط - الجهاز المركزي للتقييس والسيطرة النوعية",
+        "entity_name": "وزارة التخطيط",
+        "department_name": "الجهاز المركزي للتقييس والسيطرة النوعية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-08",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في صلاح الدين",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في صلاح الدين",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "IA",
+        "name": "الخطوط الجوية العراقية",
+        "entity_name": "الخطوط الجوية العراقية",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-04-01",
+        "name": "دائرة التفتيش والمتابعة - قسم الاجازات - شعبة منح وتجديد اجازات بغداد",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم الاجازات",
+        "unit_name": "شعبة منح وتجديد اجازات بغداد",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FI-NR",
+        "name": "وزارة المالية - هيأة التقاعد الوطنية",
+        "entity_name": "وزارة المالية",
+        "department_name": "هيأة التقاعد الوطنية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-FR",
+        "name": "وزارة التعليم العالي والبحث العلمي - جامعة الفراهيدي",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "جامعة الفراهيدي",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-13-03",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في البصرة - شعبة الإدارة والمحاسبة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في البصرة",
+        "unit_name": "شعبة الإدارة والمحاسبة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-04-02",
+        "name": "دائرة المرافق السياحية - قسم جزيرة الاعراس السياحية - شعبة الحسابات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "قسم جزيرة الاعراس السياحية",
+        "unit_name": "شعبة الحسابات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "DE",
+        "name": "وزارة الدفاع",
+        "entity_name": "وزارة الدفاع",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "WR-RA",
+        "name": "وزارة الموارد المائية - شركة الرافدين العامة لتنفيذ السدود",
+        "entity_name": "وزارة الموارد المائية",
+        "department_name": "شركة الرافدين العامة لتنفيذ السدود",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-01-03",
+        "name": "دائرة المرافق السياحية - قسم الخدمات الفندقية - شعبة الخدمات المساعدة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "قسم الخدمات الفندقية",
+        "unit_name": "شعبة الخدمات المساعدة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-01-01",
+        "name": "رئيس الهيئة - قسم مكتب رئيس الهيئة - شعبة السكرتارية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم مكتب رئيس الهيئة",
+        "unit_name": "شعبة السكرتارية",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MJ-WC",
+        "name": "وزارة العمل والشؤون الاجتماعية - محكمة جنح العزيزية",
+        "entity_name": "وزارة العمل والشؤون الاجتماعية",
+        "department_name": "محكمة جنح العزيزية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MC-FH",
+        "name": "وزارة الثقافة والسياحة والآثار - دار الأزياء العراقية",
+        "entity_name": "وزارة الثقافة والسياحة والآثار",
+        "department_name": "دار الأزياء العراقية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-07-03",
+        "name": "دائرة الإدارية والمالية - قسم تكنولوجيا المعلومات السياحي - شعبة صيانة الحاسبات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم تكنولوجيا المعلومات السياحي",
+        "unit_name": "شعبة صيانة الحاسبات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "PM-AC",
+        "name": "رئاسة مجلس الوزراء - هيئة المستشارين",
+        "entity_name": "رئاسة مجلس الوزراء",
+        "department_name": "هيئة المستشارين",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-12-03",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في نينوى - شعبة الإدارة والمحاسبة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في نينوى",
+        "unit_name": "شعبة الإدارة والمحاسبة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "WR-OP",
+        "name": "وزارة الموارد المائية - الهيئة العامة لتشغيل الري والبزل",
+        "entity_name": "وزارة الموارد المائية",
+        "department_name": "الهيئة العامة لتشغيل الري والبزل",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-LG",
+        "name": "أمانة بغداد - الدائرة القانونية",
+        "entity_name": "أمانة بغداد",
+        "department_name": "الدائرة القانونية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MM",
+        "name": "وزارة الهجرة والمهجرين",
+        "entity_name": "وزارة الهجرة والمهجرين",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-05-03",
+        "name": "رئيس الهيئة - قسم الشؤون القانونية - شعبة الإدارة والمتابعة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم الشؤون القانونية",
+        "unit_name": "شعبة الإدارة والمتابعة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "WR-IR",
+        "name": "وزارة الموارد المائية - شركة العراق لتنفيذ مشاريع الري",
+        "entity_name": "وزارة الموارد المائية",
+        "department_name": "شركة العراق لتنفيذ مشاريع الري",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MP-TD",
+        "name": "وزارة التخطيط - مكتب الوكيل الفني",
+        "entity_name": "وزارة التخطيط",
+        "department_name": "مكتب الوكيل الفني",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "KG-TB",
+        "name": "حكومة إقليم كوردستان - هيئة سياحة إقليم كوردستان",
+        "entity_name": "حكومة إقليم كوردستان",
+        "department_name": "هيئة سياحة إقليم كوردستان",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-07-04",
+        "name": "دائرة الإدارية والمالية - قسم تكنولوجيا المعلومات السياحي - شعبة الذكاء الاصطناعي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم تكنولوجيا المعلومات السياحي",
+        "unit_name": "شعبة الذكاء الاصطناعي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-NB",
+        "name": "أمانة بغداد - دائرة بلدية بغداد الجديدة",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة بلدية بغداد الجديدة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-01-04",
+        "name": "رئيس الهيئة - قسم مكتب رئيس الهيئة - شعبة المتابعة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم مكتب رئيس الهيئة",
+        "unit_name": "شعبة المتابعة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "PM-CC",
+        "name": "رئاسة مجلس الوزراء - مجلس شؤون المنافسة ومنع الاحتكار",
+        "entity_name": "رئاسة مجلس الوزراء",
+        "department_name": "مجلس شؤون المنافسة ومنع الاحتكار",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "SU",
+        "name": "ديوان الوقف السني",
+        "entity_name": "ديوان الوقف السني",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "CO-CI",
+        "name": "وزارة الاتصالات - الشركة العامة للإتصالات والمعلوماتية",
+        "entity_name": "وزارة الاتصالات",
+        "department_name": "الشركة العامة للإتصالات والمعلوماتية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "PM-PO",
+        "name": "رئاسة مجلس الوزراء - مكتب رئيس مجلس الوزراء",
+        "entity_name": "رئاسة مجلس الوزراء",
+        "department_name": "مكتب رئيس مجلس الوزراء",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GS-BC-HD",
+        "name": "الأمانة العامة لمجلس الوزراء - هيئة المنافذ الحدودية - مكتب رئيس الهيئة",
+        "entity_name": "الأمانة العامة لمجلس الوزراء",
+        "department_name": "هيئة المنافذ الحدودية",
+        "section_name": "مكتب رئيس الهيئة",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-02-03",
+        "name": "دائرة التفتيش والمتابعة - قسم التنسيق والمتابعة - شعبة سياحة المثنى",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم التنسيق والمتابعة",
+        "unit_name": "شعبة سياحة المثنى",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "TR-ER",
+        "name": "وزارة التجارة - دائرة العلاقات الاقتصادية الخارجية",
+        "entity_name": "وزارة التجارة",
+        "department_name": "دائرة العلاقات الاقتصادية الخارجية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-PJ",
+        "name": "أمانة بغداد - دائرة المشاريع",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة المشاريع",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-01-03",
+        "name": "رئيس الهيئة - قسم مكتب رئيس الهيئة - شعبة التصاريح الأمنية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم مكتب رئيس الهيئة",
+        "unit_name": "شعبة التصاريح الأمنية",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-14-02",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في كربلاء المقدسة - شعبة التصنيف السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في كربلاء المقدسة",
+        "unit_name": "شعبة التصنيف السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-01-01",
+        "name": "دائرة الإدارية والمالية - قسم الشؤون الإدارية - شعبة شؤون الموظفين",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الشؤون الإدارية",
+        "unit_name": "شعبة شؤون الموظفين",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-07",
+        "name": "دائرة الإدارية والمالية - قسم تكنولوجيا المعلومات السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم تكنولوجيا المعلومات السياحي",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "KG",
+        "name": "حكومة إقليم كوردستان",
+        "entity_name": "حكومة إقليم كوردستان",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-BE",
+        "name": "وزارة التعليم العالي والبحث العلمي - كلية بغداد للعلوم الأقتصادية الجامعة",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "كلية بغداد للعلوم الأقتصادية الجامعة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MP-MO",
+        "name": "وزارة التخطيط - مكتب الوزير",
+        "entity_name": "وزارة التخطيط",
+        "department_name": "مكتب الوزير",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MP-SP",
+        "name": "وزارة التخطيط - دائرة تخطيط القطاعات",
+        "entity_name": "وزارة التخطيط",
+        "department_name": "دائرة تخطيط القطاعات",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MI-VP-AP",
+        "name": "وزارة الداخلية - مديرية حماية الشخصيات والمنشأة - ظابط مهمة حماية مطار بغداد",
+        "entity_name": "وزارة الداخلية",
+        "department_name": "مديرية حماية الشخصيات والمنشأة",
+        "section_name": "ظابط مهمة حماية مطار بغداد",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FA-IT",
+        "name": "وزارة الخارجية - دائرة الاتصالات وتقنيات المعلومات",
+        "entity_name": "وزارة الخارجية",
+        "department_name": "دائرة الاتصالات وتقنيات المعلومات",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "WR-SV",
+        "name": "وزارة الموارد المائية - الهيئة العامة للمساحة",
+        "entity_name": "وزارة الموارد المائية",
+        "department_name": "الهيئة العامة للمساحة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MP-EP",
+        "name": "وزارة التخطيط - دائرة السياسات الاقتصادية والمالية",
+        "entity_name": "وزارة التخطيط",
+        "department_name": "دائرة السياسات الاقتصادية والمالية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "DE-OC-IS",
+        "name": "وزارة الدفاع - قيادة عمليات بغداد - الاستخبارات والأمن",
+        "entity_name": "وزارة الدفاع",
+        "department_name": "قيادة عمليات بغداد",
+        "section_name": "الاستخبارات والأمن",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-PA",
+        "name": "أمانة بغداد - دائرة المنتزهات والتشجير",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة المنتزهات والتشجير",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-07-05",
+        "name": "دائرة الإدارية والمالية - قسم تكنولوجيا المعلومات السياحي - شعبة الامن السيبراني",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم تكنولوجيا المعلومات السياحي",
+        "unit_name": "شعبة الامن السيبراني",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-01",
+        "name": "دائرة المرافق السياحية - قسم الخدمات الفندقية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "قسم الخدمات الفندقية",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-AU",
+        "name": "وزارة التعليم العالي والبحث العلمي - الجامعة الإمريكية",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "الجامعة الإمريكية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-KC",
+        "name": "أمانة بغداد - دائرة بلدية مركز الكرخ",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة بلدية مركز الكرخ",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-06-03",
+        "name": "رئيس الهيئة - قسم العقود والاستثمار - شعبة العقود",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم العقود والاستثمار",
+        "unit_name": "شعبة العقود",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-10",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في بابل",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في بابل",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-15-02",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في النجف - شعبة التصنيف السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في النجف",
+        "unit_name": "شعبة التصنيف السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-01-05",
+        "name": "رئيس الهيئة - قسم مكتب رئيس الهيئة - شعبة إدارة الجودة الشاملة والتطوير المؤسسي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم مكتب رئيس الهيئة",
+        "unit_name": "شعبة إدارة الجودة الشاملة والتطوير المؤسسي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MC-TB",
+        "name": "وزارة الثقافة والسياحة والآثار - هيئة السياحة",
+        "entity_name": "وزارة الثقافة والسياحة والآثار",
+        "department_name": "هيئة السياحة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GO-WA-OM",
+        "name": "محافظة واسط - مكتب المحافظ",
+        "entity_name": "محافظة واسط",
+        "department_name": "مكتب المحافظ",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-04",
+        "name": "دائرة المرافق السياحية - قسم جزيرة الاعراس السياحية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "قسم جزيرة الاعراس السياحية",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-01-02",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في بغداد - شعبة تفتيش بغداد - الرصافة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في بغداد",
+        "unit_name": "شعبة تفتيش بغداد",
+        "sub_unit_name": "الرصافة",
+        "logo": null
+    },
+    {
+        "id": "HO-OM",
+        "name": "وزارة الإسكان والأعمار والتنمية - مكتب الوزير",
+        "entity_name": "وزارة الإسكان والأعمار والتنمية",
+        "department_name": "مكتب الوزير",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-AF",
+        "name": "أمانة بغداد - الدائرة الإدارية والمالية",
+        "entity_name": "أمانة بغداد",
+        "department_name": "الدائرة الإدارية والمالية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-03",
+        "name": "دائرة الإدارية والمالية - قسم الصيانة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الصيانة",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-TU",
+        "name": "وزارة التعليم العالي والبحث العلمي - كلية التراث الجامعة",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "كلية التراث الجامعة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "IN",
+        "name": "وزارة الصناعة والمعادن",
+        "entity_name": "وزارة الصناعة والمعادن",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "TR-CR",
+        "name": "وزارة التجارة - دائرة تسجيل الشركات",
+        "entity_name": "وزارة التجارة",
+        "department_name": "دائرة تسجيل الشركات",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-DO",
+        "name": "أمانة بغداد - دائرة بلدية الدورة",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة بلدية الدورة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-02-03",
+        "name": "رئيس الهيئة - قسم التخطيط والمتابعة - شعبة الإحصاء",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم التخطيط والمتابعة",
+        "unit_name": "شعبة الإحصاء",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-03",
+        "name": "دائرة التفتيش والمتابعة - قسم التصنيف",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم التصنيف",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-00-04",
+        "name": "دائرة المرافق السياحية - شعبة التحليل المالي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "شعبة التحليل المالي",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-09-02",
+        "name": "دائرة المجاميع السياحية - قسم العلاقات الدولية - شعبة المنظمات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المجاميع السياحية",
+        "section_name": "قسم العلاقات الدولية",
+        "unit_name": "شعبة المنظمات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-13-01",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في البصرة - شعبة التفتيش السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في البصرة",
+        "unit_name": "شعبة التفتيش السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HO-CD",
+        "name": "وزارة الإسكان والأعمار والتنمية - دائرة العقود",
+        "entity_name": "وزارة الإسكان والأعمار والتنمية",
+        "department_name": "دائرة العقود",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-02-02",
+        "name": "دائرة التفتيش والمتابعة - قسم التنسيق والمتابعة - شعبة التنسيق والمتابعة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم التنسيق والمتابعة",
+        "unit_name": "شعبة التنسيق والمتابعة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-AC",
+        "name": "أمانة بغداد - دائرة الرقابة والتدقيق",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة الرقابة والتدقيق",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FI-CU-AP",
+        "name": "وزارة المالية - الهيئة العامة للكمارك - مكتب مطار بغداد الدولي - مكتب مطار بغداد الدولي",
+        "entity_name": "وزارة المالية",
+        "department_name": "الهيئة العامة للكمارك",
+        "section_name": "مكتب مطار بغداد الدولي",
+        "unit_name": "مكتب مطار بغداد الدولي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-PF",
+        "name": "أمانة بغداد - دائرة التخطيط والمتابعة",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة التخطيط والمتابعة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "IC-CB-IT",
+        "name": "الهيئة المستقلة - البنك المركزي العراقي - دائرة تقنيات المعلومات والمدفوعات",
+        "entity_name": "الهيئة المستقلة",
+        "department_name": "البنك المركزي العراقي",
+        "section_name": "دائرة تقنيات المعلومات والمدفوعات",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-10-03",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في بابل - شعبة الإدارة والمحاسبة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في بابل",
+        "unit_name": "شعبة الإدارة والمحاسبة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-04-06",
+        "name": "دائرة المرافق السياحية - قسم جزيرة الاعراس السياحية - شعبة الصيانة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "قسم جزيرة الاعراس السياحية",
+        "unit_name": "شعبة الصيانة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "IA-GM",
+        "name": "الخطوط الجوية العراقية - مكتب المدير العام",
+        "entity_name": "الخطوط الجوية العراقية",
+        "department_name": "مكتب المدير العام",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "CO",
+        "name": "وزارة الاتصالات",
+        "entity_name": "وزارة الاتصالات",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-DW",
+        "name": "أمانة بغداد - دائرة تنفيذ مشاريع الماء",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة تنفيذ مشاريع الماء",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MI-RA",
+        "name": "وزارة الداخلية - مديرية شؤون الإقامة",
+        "entity_name": "وزارة الداخلية",
+        "department_name": "مديرية شؤون الإقامة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MC-LA",
+        "name": "وزارة الثقافة والسياحة والآثار - قسم الشؤون القانونية",
+        "entity_name": "وزارة الثقافة والسياحة والآثار",
+        "department_name": "قسم الشؤون القانونية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-03-02",
+        "name": "رئيس الهيئة - قسم الاستشارات الهندسية - الشعبة الفنية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم الاستشارات الهندسية",
+        "unit_name": "الشعبة الفنية",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GO-DY-OM",
+        "name": "محافظة ديالى - مكتب المحافظ",
+        "entity_name": "محافظة ديالى",
+        "department_name": "مكتب المحافظ",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-DJ",
+        "name": "وزارة التعليم العالي والبحث العلمي - كلية دجلة الجامعة",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "كلية دجلة الجامعة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-03-03",
+        "name": "دائرة الإدارية والمالية - قسم الصيانة - شعبة الكهرباء",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الصيانة",
+        "unit_name": "شعبة الكهرباء",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FA-ME",
+        "name": "وزارة الخارجية - الدائرة الإعلامية",
+        "entity_name": "وزارة الخارجية",
+        "department_name": "الدائرة الإعلامية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-11",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في الانبار",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في الانبار",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "WR-LC",
+        "name": "وزارة الموارد المائية - الدائرة القانونية والعقود",
+        "entity_name": "وزارة الموارد المائية",
+        "department_name": "الدائرة القانونية والعقود",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FA-LG",
+        "name": "وزارة الخارجية - الدائرة القانونية",
+        "entity_name": "وزارة الخارجية",
+        "department_name": "الدائرة القانونية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "ED-R1",
+        "name": "وزارة التربية - مديرية تربية الرصافة الأولى",
+        "entity_name": "وزارة التربية",
+        "department_name": "مديرية تربية الرصافة الأولى",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HPM-BO-LG",
+        "name": "رئيس الوزراء - القائد العام للقوات المسلحة - قيادة عمليات بغداد - القانونية",
+        "entity_name": "رئيس الوزراء",
+        "department_name": "القائد العام للقوات المسلحة",
+        "section_name": "قيادة عمليات بغداد",
+        "unit_name": "القانونية",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MP",
+        "name": "وزارة التخطيط",
+        "entity_name": "وزارة التخطيط",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-16",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في سامراء",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في سامراء",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "ED-K2",
+        "name": "وزارة التربية - مديرية تربية الكرخ الثانية",
+        "entity_name": "وزارة التربية",
+        "department_name": "مديرية تربية الكرخ الثانية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-04-07",
+        "name": "دائرة المرافق السياحية - قسم جزيرة الاعراس السياحية - شعبة الأطعمة والمشروبات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "قسم جزيرة الاعراس السياحية",
+        "unit_name": "شعبة الأطعمة والمشروبات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-IK",
+        "name": "وزارة التعليم العالي والبحث العلمي - جامعة الأمام الكاظم  (ع)",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "جامعة الأمام الكاظم  (ع)",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "BD-BM",
+        "name": "مصرف التنمية الدولي - مجلس الإدارة - رئيس مجلس الإدارة",
+        "entity_name": "مصرف التنمية الدولي",
+        "department_name": "مجلس الإدارة",
+        "section_name": "رئيس مجلس الإدارة",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "IC-PM",
+        "name": "الهيئة المستقلة - هيئة الحشد الشعبي",
+        "entity_name": "الهيئة المستقلة",
+        "department_name": "هيئة الحشد الشعبي",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MP-RD",
+        "name": "وزارة التخطيط - دائرة التنمية الإقليمية والمحلية",
+        "entity_name": "وزارة التخطيط",
+        "department_name": "دائرة التنمية الإقليمية والمحلية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-15-03",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في النجف - شعبة الإدارة والمحاسبة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في النجف",
+        "unit_name": "شعبة الإدارة والمحاسبة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-G-03-02",
+        "name": "دائرة المجاميع السياحية - قسم السياحة الدينية - شعبة المنافذ الحدودية والخدمات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المجاميع السياحية",
+        "section_name": "قسم السياحة الدينية",
+        "unit_name": "شعبة المنافذ الحدودية والخدمات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F",
+        "name": "دائرة المرافق السياحية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-09",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في الديوانية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في الديوانية",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MJ-PS",
+        "name": "مجلس القضاء الأعلى - محكمة الأحوال الشخصية - رئاسة المحكمة",
+        "entity_name": "مجلس القضاء الأعلى",
+        "department_name": "محكمة الأحوال الشخصية",
+        "section_name": "رئاسة المحكمة",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "AS",
+        "name": "نقابة الفنانين العراقيين",
+        "entity_name": "نقابة الفنانين العراقيين",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FA-AS",
+        "name": "وزارة الخارجية - دائرة آسيا",
+        "entity_name": "وزارة الخارجية",
+        "department_name": "دائرة آسيا",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FI-LG",
+        "name": "وزارة المالية - الدائرة القانونية",
+        "entity_name": "وزارة المالية",
+        "department_name": "الدائرة القانونية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-AS",
+        "name": "وزارة التعليم العالي والبحث العلمي - كلية أشــور الجامعة",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "كلية أشــور الجامعة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MP-GS",
+        "name": "وزارة التخطيط - هيئة الإحصاء ونظم المعلومات الجغرافية",
+        "entity_name": "وزارة التخطيط",
+        "department_name": "هيئة الإحصاء ونظم المعلومات الجغرافية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-03-03",
+        "name": "رئيس الهيئة - قسم الرقابة والتدقيق الداخلي - شعبة تدقيق الإيرادات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم الرقابة والتدقيق الداخلي",
+        "unit_name": "شعبة تدقيق الإيرادات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-05-04",
+        "name": "رئيس الهيئة - قسم الشؤون القانونية - شعبة الكفالات والتصديقات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم الشؤون القانونية",
+        "unit_name": "شعبة الكفالات والتصديقات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "EN",
+        "name": "وزارة البيئة",
+        "entity_name": "وزارة البيئة",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-12-02",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في نينوى - شعبة التصنيف السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في نينوى",
+        "unit_name": "شعبة التصنيف السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-13-02",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في البصرة - شعبة التصنيف السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في البصرة",
+        "unit_name": "شعبة التصنيف السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-04-04",
+        "name": "دائرة المرافق السياحية - قسم جزيرة الاعراس السياحية - شعبة العلاقات والاعلام",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "قسم جزيرة الاعراس السياحية",
+        "unit_name": "شعبة العلاقات والاعلام",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-G-02-02",
+        "name": "دائرة المجاميع السياحية - قسم شركات السفر والسياحة - شعبة المتابعة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المجاميع السياحية",
+        "section_name": "قسم شركات السفر والسياحة",
+        "unit_name": "شعبة المتابعة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MC-DC",
+        "name": "وزارة الثقافة والسياحة والآثار - مكتب الوكيل للشؤون الثقافية",
+        "entity_name": "وزارة الثقافة والسياحة والآثار",
+        "department_name": "مكتب الوكيل للشؤون الثقافية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-G-02",
+        "name": "دائرة المجاميع السياحية - قسم شركات السفر والسياحة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المجاميع السياحية",
+        "section_name": "قسم شركات السفر والسياحة",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-GZ",
+        "name": "أمانة بغداد - دائرة بلدية المنطقة الخضراء وطريق المطار",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة بلدية المنطقة الخضراء وطريق المطار",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-04-04",
+        "name": "دائرة الإدارية والمالية - قسم السلامة المهنية - شعبة التفتيش",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم السلامة المهنية",
+        "unit_name": "شعبة التفتيش",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MOJ-WC",
+        "name": "وزارة العدل - محكمة جنح العزيزية",
+        "entity_name": "وزارة العدل",
+        "department_name": "محكمة جنح العزيزية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "SW-KM-SG",
+        "name": "ديوان الوقف الشيعي - العتبة الكاظمية المقدسة - مكتب الأمين العام",
+        "entity_name": "ديوان الوقف الشيعي",
+        "department_name": "العتبة الكاظمية المقدسة",
+        "section_name": "مكتب الأمين العام",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-01-04",
+        "name": "دائرة الإدارية والمالية - قسم الشؤون الإدارية - شعبة الاضابير الشخصية والبيانات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الشؤون الإدارية",
+        "unit_name": "شعبة الاضابير الشخصية والبيانات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "WR-MR",
+        "name": "وزارة الموارد المائية - مركز انعاش الاهوار والأراضي الرطبة",
+        "entity_name": "وزارة الموارد المائية",
+        "department_name": "مركز انعاش الاهوار والأراضي الرطبة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-07-02",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في ديالى - شعبة التصنيف السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في ديالى",
+        "unit_name": "شعبة التصنيف السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-04-03",
+        "name": "دائرة المرافق السياحية - قسم جزيرة الاعراس السياحية - شعبة التدقيق",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "قسم جزيرة الاعراس السياحية",
+        "unit_name": "شعبة التدقيق",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-08",
+        "name": "دائرة المرافق السياحية - قسم التدريب والتطوير السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "قسم التدريب والتطوير السياحي",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-01-02",
+        "name": "دائرة المرافق السياحية - قسم الخدمات الفندقية - شعبة المحافظات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "قسم الخدمات الفندقية",
+        "unit_name": "شعبة المحافظات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-03",
+        "name": "رئيس الهيئة - قسم الرقابة والتدقيق الداخلي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم الرقابة والتدقيق الداخلي",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GS-CC",
+        "name": "الأمانة العامة لمجلس الوزراء - اللجنة المركزية الثانية لتعويض المتضررين",
+        "entity_name": "الأمانة العامة لمجلس الوزراء",
+        "department_name": "اللجنة المركزية الثانية لتعويض المتضررين",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "IC-EL",
+        "name": "الهيئة المستقلة - المفوضية العليا المستقلة للانتخابات",
+        "entity_name": "الهيئة المستقلة",
+        "department_name": "المفوضية العليا المستقلة للانتخابات",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HO-IT",
+        "name": "وزارة الإسكان والأعمار والتنمية - دائرة تكنولوجيا المعلومات",
+        "entity_name": "وزارة الإسكان والأعمار والتنمية",
+        "department_name": "دائرة تكنولوجيا المعلومات",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MOJ",
+        "name": "وزارة العدل",
+        "entity_name": "وزارة العدل",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-07",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في ديالى",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في ديالى",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-MM",
+        "name": "وزارة التعليم العالي والبحث العلمي - كلية المأمون الجامعة",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "كلية المأمون الجامعة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-NS",
+        "name": "وزارة التعليم العالي والبحث العلمي - كلية النسور الجامعة",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "كلية النسور الجامعة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FA-PP",
+        "name": "وزارة الخارجية - دائرة التخطيط السياسي",
+        "entity_name": "وزارة الخارجية",
+        "department_name": "دائرة التخطيط السياسي",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-05-03",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في ذي قار - شعبة الإدارة والمحاسبة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في ذي قار",
+        "unit_name": "شعبة الإدارة والمحاسبة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-09",
+        "name": "دائرة المجاميع السياحية - قسم العلاقات الدولية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المجاميع السياحية",
+        "section_name": "قسم العلاقات الدولية",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MC-DA",
+        "name": "وزارة الثقافة والسياحة والآثار - مكتب الوكيل لشؤون الفنون",
+        "entity_name": "وزارة الثقافة والسياحة والآثار",
+        "department_name": "مكتب الوكيل لشؤون الفنون",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MOJ-LG",
+        "name": "وزارة العدل - الدائرة القانونية",
+        "entity_name": "وزارة العدل",
+        "department_name": "الدائرة القانونية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-01-00",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في بغداد - شعبة تفتيش بغداد",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في بغداد",
+        "unit_name": "شعبة تفتيش بغداد",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-13",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في البصرة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في البصرة",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-GS",
+        "name": "أمانة بغداد - المديريات العامة للحراسات والأمن",
+        "entity_name": "أمانة بغداد",
+        "department_name": "المديريات العامة للحراسات والأمن",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "NG",
+        "name": "منظمات المجتمع المدني",
+        "entity_name": "منظمات المجتمع المدني",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "WR-AF",
+        "name": "وزارة الموارد المائية - الدائرة الإدارية والمالية",
+        "entity_name": "وزارة الموارد المائية",
+        "department_name": "الدائرة الإدارية والمالية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MI-AD",
+        "name": "وزارة الداخلية - كافة الدوائر",
+        "entity_name": "وزارة الداخلية",
+        "department_name": "كافة الدوائر",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-03-02",
+        "name": "رئيس الهيئة - قسم الرقابة والتدقيق الداخلي - شعبة التدقيق الخارجي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم الرقابة والتدقيق الداخلي",
+        "unit_name": "شعبة التدقيق الخارجي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-PU",
+        "name": "أمانة بغداد - دائرة الوحدات الإنتاجية",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة الوحدات الإنتاجية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FA-AF",
+        "name": "وزارة الخارجية - دائرة أفريقيا",
+        "entity_name": "وزارة الخارجية",
+        "department_name": "دائرة أفريقيا",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "CA",
+        "name": "سلطة الطيران المدني",
+        "entity_name": "سلطة الطيران المدني",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-MT-AC",
+        "name": "وزارة التعليم العالي والبحث العلمي - الجامعة التقنية الوسطى - الكلية التقنية الإدارية / بغداد",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "الجامعة التقنية الوسطى",
+        "section_name": "الكلية التقنية الإدارية / بغداد",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "IC-MC",
+        "name": "الهيئة المستقلة - هيئة الإعلام والاتصالات",
+        "entity_name": "الهيئة المستقلة",
+        "department_name": "هيئة الإعلام والاتصالات",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-WE",
+        "name": "أمانة بغداد - دائرة المخلفات الصلبة والبيئة",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة المخلفات الصلبة والبيئة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-06-03",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في كركوك - شعبة الإدارة والمحاسبة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في كركوك",
+        "unit_name": "شعبة الإدارة والمحاسبة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FA-MO",
+        "name": "وزارة الخارجية - مكتب الوزير",
+        "entity_name": "وزارة الخارجية",
+        "department_name": "مكتب الوزير",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "SW-AS-SG",
+        "name": "ديوان الوقف الشيعي - العتبة العلوية المقدسة - مكتب الأمين العام",
+        "entity_name": "ديوان الوقف الشيعي",
+        "department_name": "العتبة العلوية المقدسة",
+        "section_name": "مكتب الأمين العام",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-MU",
+        "name": "وزارة التعليم العالي والبحث العلمي - الجامعة المستنصرية",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "الجامعة المستنصرية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HO-SM",
+        "name": "وزارة الإسكان والأعمار والتنمية - مكتب الإدارة الاستراتيجية",
+        "entity_name": "وزارة الإسكان والأعمار والتنمية",
+        "department_name": "مكتب الإدارة الاستراتيجية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-03-01",
+        "name": "دائرة التفتيش والمتابعة - قسم التصنيف - شعبة تصنيف بغداد",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم التصنيف",
+        "unit_name": "شعبة تصنيف بغداد",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "PM-KR",
+        "name": "رئاسة مجلس الوزراء - ممثلية حكومة إقليم كوردستان",
+        "entity_name": "رئاسة مجلس الوزراء",
+        "department_name": "ممثلية حكومة إقليم كوردستان",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-09-04",
+        "name": "دائرة المجاميع السياحية - قسم العلاقات الدولية - شعبة الاتفاقيات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المجاميع السياحية",
+        "section_name": "قسم العلاقات الدولية",
+        "unit_name": "شعبة الاتفاقيات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MC-LC",
+        "name": "وزارة الثقافة والسياحة والآثار - مكتب المستشار القانوني",
+        "entity_name": "وزارة الثقافة والسياحة والآثار",
+        "department_name": "مكتب المستشار القانوني",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MI-MO",
+        "name": "وزارة الداخلية - مكتب الوزير",
+        "entity_name": "وزارة الداخلية",
+        "department_name": "مكتب الوزير",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MJ-FC",
+        "name": "مجلس القضاء الأعلى - محكمة التمييز الاتحادية - رئاسة المحكمة",
+        "entity_name": "مجلس القضاء الأعلى",
+        "department_name": "محكمة التمييز الاتحادية",
+        "section_name": "رئاسة المحكمة",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-10",
+        "name": "رئيس الهيئة - قسم الترجمة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم الترجمة",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "ED-MO",
+        "name": "وزارة التربية - مكتب الوزير",
+        "entity_name": "وزارة التربية",
+        "department_name": "مكتب الوزير",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "ED-R3",
+        "name": "وزارة التربية - مديرية تربية الرصافة الثالثة",
+        "entity_name": "وزارة التربية",
+        "department_name": "مديرية تربية الرصافة الثالثة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MJ-AR",
+        "name": "مجلس القضاء الأعلى - رئاسة محكمة أستئناف بغداد / الرصافة",
+        "entity_name": "مجلس القضاء الأعلى",
+        "department_name": "رئاسة محكمة أستئناف بغداد / الرصافة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "SW",
+        "name": "ديوان الوقف الشيعي",
+        "entity_name": "ديوان الوقف الشيعي",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "IC-HR",
+        "name": "الهيئة المستقلة - المفوضية العليا لحقوق الانسان",
+        "entity_name": "الهيئة المستقلة",
+        "department_name": "المفوضية العليا لحقوق الانسان",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-10-02",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في بابل - شعبة التصنيف السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في بابل",
+        "unit_name": "شعبة التصنيف السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "IN-CM",
+        "name": "وزارة الصناعة والمعادن - الشركة العامة للصناعات النحاسية",
+        "entity_name": "وزارة الصناعة والمعادن",
+        "department_name": "الشركة العامة للصناعات النحاسية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-05-05",
+        "name": "دائرة الإدارية والمالية - قسم الشؤون المالية - شعبة السجلات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الشؤون المالية",
+        "unit_name": "شعبة السجلات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-04-02",
+        "name": "رئيس الهيئة - قسم العلاقات والاعلام - شعبة العلاقات العامة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم العلاقات والاعلام",
+        "unit_name": "شعبة العلاقات العامة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MI",
+        "name": "وزارة الداخلية",
+        "entity_name": "وزارة الداخلية",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FA-NB",
+        "name": "وزارة الخارجية - دائرة الدول المجاورة",
+        "entity_name": "وزارة الخارجية",
+        "department_name": "دائرة الدول المجاورة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MT-GT",
+        "name": "وزارة النقل - الشركة العامة لنقل المسافرين",
+        "entity_name": "وزارة النقل",
+        "department_name": "الشركة العامة لنقل المسافرين",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-07-01",
+        "name": "دائرة الإدارية والمالية - قسم تكنولوجيا المعلومات السياحي - شعبة الانترنيت",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم تكنولوجيا المعلومات السياحي",
+        "unit_name": "شعبة الانترنيت",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GO-MU-OM",
+        "name": "محافظة المثنى - مكتب المحافظ",
+        "entity_name": "محافظة المثنى",
+        "department_name": "مكتب المحافظ",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-02-04",
+        "name": "دائرة الإدارية والمالية - قسم الخدمات الإدارية - شعبة الاستعلامات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الخدمات الإدارية",
+        "unit_name": "شعبة الاستعلامات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-TA",
+        "name": "أمانة بغداد - أمانة بغداد للشؤون الفنية",
+        "entity_name": "أمانة بغداد",
+        "department_name": "أمانة بغداد للشؤون الفنية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MP-HD",
+        "name": "وزارة التخطيط - دائرة التنمية البشرية",
+        "entity_name": "وزارة التخطيط",
+        "department_name": "دائرة التنمية البشرية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MC-MH",
+        "name": "وزارة الثقافة والسياحة والآثار - دار المأمون للترجمة والنشر",
+        "entity_name": "وزارة الثقافة والسياحة والآثار",
+        "department_name": "دار المأمون للترجمة والنشر",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "PS-SA",
+        "name": "شركة SAS",
+        "entity_name": "شركة SAS",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MI-TS",
+        "name": "وزارة الداخلية - مديرية الأمن السياحي",
+        "entity_name": "وزارة الداخلية",
+        "department_name": "مديرية الأمن السياحي",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "WR",
+        "name": "وزارة الموارد المائية",
+        "entity_name": "وزارة الموارد المائية",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "AS-HQ",
+        "name": "نقابة الفنانين العراقيين - المركز العام",
+        "entity_name": "نقابة الفنانين العراقيين",
+        "department_name": "المركز العام",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-15-01",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في النجف - شعبة التفتيش السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في النجف",
+        "unit_name": "شعبة التفتيش السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-12-01",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في نينوى - شعبة التفتيش السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في نينوى",
+        "unit_name": "شعبة التفتيش السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MT-TD",
+        "name": "وزارة النقل - مكتب الوكيل الفني",
+        "entity_name": "وزارة النقل",
+        "department_name": "مكتب الوكيل الفني",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "WR-ED",
+        "name": "وزارة الموارد المائية - مركز الدراسات والتصاميم الهندسية",
+        "entity_name": "وزارة الموارد المائية",
+        "department_name": "مركز الدراسات والتصاميم الهندسية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "IC-HU",
+        "name": "الهيئة المستقلة - هيئة الحج والعمرة",
+        "entity_name": "الهيئة المستقلة",
+        "department_name": "هيئة الحج والعمرة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-04",
+        "name": "دائرة الإدارية والمالية - قسم السلامة المهنية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم السلامة المهنية",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HO-HR",
+        "name": "وزارة الإسكان والأعمار والتنمية - المديرية العامة للموارد البشرية",
+        "entity_name": "وزارة الإسكان والأعمار والتنمية",
+        "department_name": "المديرية العامة للموارد البشرية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-02-04",
+        "name": "رئيس الهيئة - قسم التخطيط والمتابعة - شعبة المرأة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم التخطيط والمتابعة",
+        "unit_name": "شعبة المرأة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-05-01",
+        "name": "دائرة الإدارية والمالية - قسم الشؤون المالية - شعبة الرواتب",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الشؤون المالية",
+        "unit_name": "شعبة الرواتب",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GO-BG-PC-CH",
+        "name": "محافظة بغداد - مجلس محافظة بغداد - مكتب رئيس المجلس",
+        "entity_name": "محافظة بغداد",
+        "department_name": "مجلس محافظة بغداد",
+        "section_name": "مكتب رئيس المجلس",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "ME",
+        "name": "وزارة الكهرباء",
+        "entity_name": "وزارة الكهرباء",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-UR",
+        "name": "وزارة التعليم العالي والبحث العلمي - كلية أوروك الجامعة",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "كلية أوروك الجامعة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-01-07",
+        "name": "دائرة الإدارية والمالية - قسم الشؤون الإدارية - شعبة الاجازات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الشؤون الإدارية",
+        "unit_name": "شعبة الاجازات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-SL",
+        "name": "أمانة بغداد - دائرة بلدية الشعلة",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة بلدية الشعلة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-02-04",
+        "name": "دائرة التفتيش والمتابعة - قسم التنسيق والمتابعة - شعبة سياحة واسط",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم التنسيق والمتابعة",
+        "unit_name": "شعبة سياحة واسط",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-05-01",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في ذي قار - شعبة التفتيش السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في ذي قار",
+        "unit_name": "شعبة التفتيش السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-09-03",
+        "name": "دائرة المجاميع السياحية - قسم العلاقات الدولية - شعبة التسويق والترويج السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المجاميع السياحية",
+        "section_name": "قسم العلاقات الدولية",
+        "unit_name": "شعبة التسويق والترويج السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GO-KA-OM",
+        "name": "محافظة كربلاء المقدسة - مكتب المحافظ",
+        "entity_name": "محافظة كربلاء المقدسة",
+        "department_name": "مكتب المحافظ",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-06",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في كركوك",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في كركوك",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FA-HQ",
+        "name": "وزارة الخارجية - دائرة أوربا",
+        "entity_name": "وزارة الخارجية",
+        "department_name": "دائرة أوربا",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-01-05",
+        "name": "دائرة الإدارية والمالية - قسم الشؤون الإدارية - شعبة قاعدة البيانات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الشؤون الإدارية",
+        "unit_name": "شعبة قاعدة البيانات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-G-01-02",
+        "name": "دائرة المجاميع السياحية - قسم المكتب الوطني - شعبة الرحالات والادلاء السياحيين",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المجاميع السياحية",
+        "section_name": "قسم المكتب الوطني",
+        "unit_name": "شعبة الرحالات والادلاء السياحيين",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HS-RT",
+        "name": "إدارة شركة الفنادق السياحية - فندق رويال توليب",
+        "entity_name": "إدارة شركة الفنادق السياحية",
+        "department_name": "فندق رويال توليب",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "NG-AJ-LD",
+        "name": "الهيئة الوطنية العليا للمساءلة والعدالة - الدائرة القانونية",
+        "entity_name": "الهيئة الوطنية العليا للمساءلة والعدالة",
+        "department_name": "الدائرة القانونية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GO-NJ-OM",
+        "name": "محافظة النجف الأشرف - مكتب المحافظ",
+        "entity_name": "محافظة النجف الأشرف",
+        "department_name": "مكتب المحافظ",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HO-IG",
+        "name": "وزارة الإسكان والأعمار والتنمية - مكتب المفتش العام",
+        "entity_name": "وزارة الإسكان والأعمار والتنمية",
+        "department_name": "مكتب المفتش العام",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "TR-IF-BF",
+        "name": "وزارة التجارة - الشركة العامة للمعارض العراقية - إدارة معرض بغداد الدولي",
+        "entity_name": "وزارة التجارة",
+        "department_name": "الشركة العامة للمعارض العراقية",
+        "section_name": "إدارة معرض بغداد الدولي",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-02-01",
+        "name": "دائرة المرافق السياحية - قسم الشركات السياحية المختلطة - شعبة شركات وفنادق المحافظات المختلطة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "قسم الشركات السياحية المختلطة",
+        "unit_name": "شعبة شركات وفنادق المحافظات المختلطة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-01-01",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في بغداد - شعبة تفتيش بغداد - الكرخ",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في بغداد",
+        "unit_name": "شعبة تفتيش بغداد",
+        "sub_unit_name": "الكرخ",
+        "logo": null
+    },
+    {
+        "id": "MP-LG",
+        "name": "وزارة التخطيط - الدائرة القانونية",
+        "entity_name": "وزارة التخطيط",
+        "department_name": "الدائرة القانونية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-MT-AA-GS",
+        "name": "وزارة التعليم العالي والبحث العلمي - الجامعة التقنية الوسطى - كلية الفنون التطبيقية - شعبة الدراسات العليا",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "الجامعة التقنية الوسطى",
+        "section_name": "كلية الفنون التطبيقية",
+        "unit_name": "شعبة الدراسات العليا",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-04-03",
+        "name": "رئيس الهيئة - قسم العلاقات والاعلام - شعبة الاعلام",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم العلاقات والاعلام",
+        "unit_name": "شعبة الاعلام",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-01",
+        "name": "دائرة الإدارية والمالية - قسم الشؤون الإدارية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الشؤون الإدارية",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "ED-R2",
+        "name": "وزارة التربية - مديرية تربية الرصافة الثانية",
+        "entity_name": "وزارة التربية",
+        "department_name": "مديرية تربية الرصافة الثانية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MP-AF",
+        "name": "وزارة التخطيط - الدائرة الإدارية والمالية",
+        "entity_name": "وزارة التخطيط",
+        "department_name": "الدائرة الإدارية والمالية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-01-06",
+        "name": "دائرة الإدارية والمالية - قسم الشؤون الإدارية - شعبة البصمة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الشؤون الإدارية",
+        "unit_name": "شعبة البصمة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "WR-IM",
+        "name": "وزارة الموارد المائية - الهيئة العامة لصيانة مشاريع الري والبزل",
+        "entity_name": "وزارة الموارد المائية",
+        "department_name": "الهيئة العامة لصيانة مشاريع الري والبزل",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "SW-HS-SG",
+        "name": "ديوان الوقف الشيعي - العتبة الحسينية المقدسة - مكتب الأمين العام",
+        "entity_name": "ديوان الوقف الشيعي",
+        "department_name": "العتبة الحسينية المقدسة",
+        "section_name": "مكتب الأمين العام",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-07-01",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في ديالى - شعبة التفتيش السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في ديالى",
+        "unit_name": "شعبة التفتيش السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MOJ-RE",
+        "name": "وزارة العدل - دائرة التسجيل العقاري",
+        "entity_name": "وزارة العدل",
+        "department_name": "دائرة التسجيل العقاري",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "CA-AT",
+        "name": "سلطة الطيران المدني - قسم النقل الجوي",
+        "entity_name": "سلطة الطيران المدني",
+        "department_name": "قسم النقل الجوي",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "WR-TD",
+        "name": "وزارة الموارد المائية - مكتب الوكيل الفني",
+        "entity_name": "وزارة الموارد المائية",
+        "department_name": "مكتب الوكيل الفني",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MI-AB",
+        "name": "وزارة الداخلية - إدارة المطارات والمنافذ الحدودية",
+        "entity_name": "وزارة الداخلية",
+        "department_name": "إدارة المطارات والمنافذ الحدودية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-02-02",
+        "name": "دائرة الإدارية والمالية - قسم الخدمات الإدارية - شعبة الاليات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الخدمات الإدارية",
+        "unit_name": "شعبة الاليات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MI-V",
+        "name": "وزارة الداخلية - دائرة الاقامة",
+        "entity_name": "وزارة الداخلية",
+        "department_name": "دائرة الاقامة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-09-01",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في الديوانية - شعبة التفتيش السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في الديوانية",
+        "unit_name": "شعبة التفتيش السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "WR-OM",
+        "name": "وزارة الموارد المائية - مكتب الوزير",
+        "entity_name": "وزارة الموارد المائية",
+        "department_name": "مكتب الوزير",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "PM-NS",
+        "name": "رئاسة مجلس الوزراء - جهاز الأمن الوطني",
+        "entity_name": "رئاسة مجلس الوزراء",
+        "department_name": "جهاز الأمن الوطني",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "CO-PS",
+        "name": "وزارة الاتصالات - شركة البريد والتوفير",
+        "entity_name": "وزارة الاتصالات",
+        "department_name": "شركة البريد والتوفير",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "IC-IN-NJ",
+        "name": "الهيئة المستقلة - هيئة النزهة الاتحادية - مديرية تحقيق النجف",
+        "entity_name": "الهيئة المستقلة",
+        "department_name": "هيئة النزهة الاتحادية",
+        "section_name": "مديرية تحقيق النجف",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-IS",
+        "name": "وزارة التعليم العالي والبحث العلمي - جامعة الإسراء",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "جامعة الإسراء",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-05-03",
+        "name": "دائرة الإدارية والمالية - قسم الشؤون المالية - شعبة الصرف",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الشؤون المالية",
+        "unit_name": "شعبة الصرف",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MC-AA",
+        "name": "وزارة الثقافة والسياحة والآثار - الهيئة العامة للآثار والتراث",
+        "entity_name": "وزارة الثقافة والسياحة والآثار",
+        "department_name": "الهيئة العامة للآثار والتراث",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "ED-K3",
+        "name": "وزارة التربية - مديرية تربية الكرخ الثالثة",
+        "entity_name": "وزارة التربية",
+        "department_name": "مديرية تربية الكرخ الثالثة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HO-PM",
+        "name": "وزارة الإسكان والأعمار والتنمية - المديرية العامة للتخطيط والمتابعة",
+        "entity_name": "وزارة الإسكان والأعمار والتنمية",
+        "department_name": "المديرية العامة للتخطيط والمتابعة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-07-02",
+        "name": "دائرة الإدارية والمالية - قسم تكنولوجيا المعلومات السياحي - شعبة اعداد البيانات والبرمجة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم تكنولوجيا المعلومات السياحي",
+        "unit_name": "شعبة اعداد البيانات والبرمجة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HO-MN",
+        "name": "وزارة الإسكان والأعمار والتنمية - مديرية البلديات العامة",
+        "entity_name": "وزارة الإسكان والأعمار والتنمية",
+        "department_name": "مديرية البلديات العامة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-15",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في النجف",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في النجف",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-07-03",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في ديالى - شعبة الإدارة والمحاسبة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في ديالى",
+        "unit_name": "شعبة الإدارة والمحاسبة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE",
+        "name": "وزارة التعليم العالي والبحث العلمي",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HO-PB",
+        "name": "وزارة الإسكان والأعمار والتنمية - مديرية الابنية العامة",
+        "entity_name": "وزارة الإسكان والأعمار والتنمية",
+        "department_name": "مديرية الابنية العامة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-02",
+        "name": "دائرة الإدارية والمالية - قسم الخدمات الإدارية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الخدمات الإدارية",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "NG-AT",
+        "name": "منظمات المجتمع المدني - المنظمة العربية للسياحة",
+        "entity_name": "منظمات المجتمع المدني",
+        "department_name": "المنظمة العربية للسياحة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-UN",
+        "name": "وزارة التعليم العالي - الجامعات / الكليات / المعاهد",
+        "entity_name": "وزارة التعليم العالي",
+        "department_name": "الجامعات / الكليات / المعاهد",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-SP",
+        "name": "أمانة بغداد - مكتب التصاريح الأمنية",
+        "entity_name": "أمانة بغداد",
+        "department_name": "مكتب التصاريح الأمنية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MJ-JC-NI",
+        "name": "مجلس القضاء الأعلى - رئاسة محكمة أستئناف نينوى - السيد قاضي الأمن السياحي",
+        "entity_name": "مجلس القضاء الأعلى",
+        "department_name": "رئاسة محكمة أستئناف نينوى",
+        "section_name": "السيد قاضي الأمن السياحي",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MO-NR",
+        "name": "وزارة النفط - شركة مصافي الشمال",
+        "entity_name": "وزارة النفط",
+        "department_name": "شركة مصافي الشمال",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MP-AC",
+        "name": "وزارة التخطيط - الهيئة العراقية للاعتماد",
+        "entity_name": "وزارة التخطيط",
+        "department_name": "الهيئة العراقية للاعتماد",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "ED",
+        "name": "وزارة التربية",
+        "entity_name": "وزارة التربية",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FA-AD",
+        "name": "وزارة الخارجية - دائرة المنظمات والمؤتمرات الدولية",
+        "entity_name": "وزارة الخارجية",
+        "department_name": "دائرة المنظمات والمؤتمرات الدولية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "WR-FA",
+        "name": "وزارة الموارد المائية - شركة الفاو العامة لتنفيذ مشاريع الري",
+        "entity_name": "وزارة الموارد المائية",
+        "department_name": "شركة الفاو العامة لتنفيذ مشاريع الري",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "DE-MO",
+        "name": "وزارة الدفاع - مكتب الوزير",
+        "entity_name": "وزارة الدفاع",
+        "department_name": "مكتب الوزير",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "AL",
+        "name": "جامعة الدول العربية",
+        "entity_name": "جامعة الدول العربية",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-03-01",
+        "name": "رئيس الهيئة - قسم الرقابة والتدقيق الداخلي - شعبة التدقيق الداخلي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم الرقابة والتدقيق الداخلي",
+        "unit_name": "شعبة التدقيق الداخلي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HS-PH",
+        "name": "إدارة شركة الفنادق السياحية - فندق فلسطين",
+        "entity_name": "إدارة شركة الفنادق السياحية",
+        "department_name": "فندق فلسطين",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-RE",
+        "name": "أمانة بغداد - دائرة العقارات",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة العقارات",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "ED-VE",
+        "name": "وزارة التربية - مديرية التعليم المهني",
+        "entity_name": "وزارة التربية",
+        "department_name": "مديرية التعليم المهني",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "ME-M",
+        "name": "وزارة الكهرباء - دائرة كهرباء الوسط",
+        "entity_name": "وزارة الكهرباء",
+        "department_name": "دائرة كهرباء الوسط",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "SC",
+        "name": "مجلس الدولة",
+        "entity_name": "مجلس الدولة",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GS-LI",
+        "name": "الأمانة العامة لمجلس الوزراء - المعهد العالي لإعداد وتأهيل القادة",
+        "entity_name": "الأمانة العامة لمجلس الوزراء",
+        "department_name": "المعهد العالي لإعداد وتأهيل القادة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-09-01",
+        "name": "دائرة المجاميع السياحية - قسم العلاقات الدولية - شعبة الترجمة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المجاميع السياحية",
+        "section_name": "قسم العلاقات الدولية",
+        "unit_name": "شعبة الترجمة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "LB",
+        "name": "وزارة العمل والشؤون الاجتماعية",
+        "entity_name": "وزارة العمل والشؤون الاجتماعية",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MOJ-AF",
+        "name": "وزارة العدل - الدائرة الإدارية والمالية",
+        "entity_name": "وزارة العدل",
+        "department_name": "الدائرة الإدارية والمالية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-05-02",
+        "name": "رئيس الهيئة - قسم الشؤون القانونية - شعبة الأملاك",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم الشؤون القانونية",
+        "unit_name": "شعبة الأملاك",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "CC",
+        "name": "الغرف التجارية",
+        "entity_name": "الغرف التجارية",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-08-01",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في صلاح الدين - شعبة التفتيش السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في صلاح الدين",
+        "unit_name": "شعبة التفتيش السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-NA",
+        "name": "وزارة التعليم العالي والبحث العلمي - جامعة النهرين",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "جامعة النهرين",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "JO",
+        "name": "قيادة العمليات المشتركة",
+        "entity_name": "قيادة العمليات المشتركة",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GO-DQ-OM",
+        "name": "محافظة ذي قار - مكتب المحافظ",
+        "entity_name": "محافظة ذي قار",
+        "department_name": "مكتب المحافظ",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-BN",
+        "name": "وزارة التعليم العالي والبحث العلمي - كلية البيان الجامعة",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "كلية البيان الجامعة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-03-03",
+        "name": "رئيس الهيئة - قسم الاستشارات الهندسية - شعبة الدراسات الفنية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم الاستشارات الهندسية",
+        "unit_name": "شعبة الدراسات الفنية",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FA-EC",
+        "name": "وزارة الخارجية - الدائرة الاقتصادية",
+        "entity_name": "وزارة الخارجية",
+        "department_name": "الدائرة الاقتصادية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MJ",
+        "name": "مجلس القضاء الأعلى",
+        "entity_name": "مجلس القضاء الأعلى",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "PM",
+        "name": "رئاسة مجلس الوزراء",
+        "entity_name": "رئاسة مجلس الوزراء",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FA-EN",
+        "name": "وزارة الخارجية - الدائرة الهندسية والفنية",
+        "entity_name": "وزارة الخارجية",
+        "department_name": "الدائرة الهندسية والفنية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GO-BB-IC",
+        "name": "محافظة بابل - هيئة أستثمار بابل",
+        "entity_name": "محافظة بابل",
+        "department_name": "هيئة أستثمار بابل",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "PS-SW",
+        "name": "القطاع الخاص - شركة بوابة العراق (SWITCH)",
+        "entity_name": "القطاع الخاص",
+        "department_name": "شركة بوابة العراق (SWITCH)",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MP-IT",
+        "name": "وزارة التخطيط - المركز الوطني الإداري وتقنية المعلومات",
+        "entity_name": "وزارة التخطيط",
+        "department_name": "المركز الوطني الإداري وتقنية المعلومات",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-G-02-01",
+        "name": "دائرة المجاميع السياحية - قسم شركات السفر والسياحة - شعبة الاجازات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المجاميع السياحية",
+        "section_name": "قسم شركات السفر والسياحة",
+        "unit_name": "شعبة الاجازات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-02-03",
+        "name": "دائرة الإدارية والمالية - قسم الخدمات الإدارية - شعبة البدالة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الخدمات الإدارية",
+        "unit_name": "شعبة البدالة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GS-PC",
+        "name": "الأمانة العامة لمجلس الوزراء - الهيئة العليا لتنسيق بين المحافظات",
+        "entity_name": "الأمانة العامة لمجلس الوزراء",
+        "department_name": "الهيئة العليا لتنسيق بين المحافظات",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-02-02",
+        "name": "دائرة المرافق السياحية - قسم الشركات السياحية المختلطة - شعبة شركات وفنادق بغداد المساهمة والمختلطة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "قسم الشركات السياحية المختلطة",
+        "unit_name": "شعبة شركات وفنادق بغداد المساهمة والمختلطة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-MS",
+        "name": "وزارة التعليم العالي والبحث العلمي - كلية المصطفى الجامعة",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "كلية المصطفى الجامعة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-04",
+        "name": "دائرة التفتيش والمتابعة - قسم الاجازات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم الاجازات",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "IC-BC",
+        "name": "الهيئة المستقلة - هيئة المنافذ الحدودية",
+        "entity_name": "الهيئة المستقلة",
+        "department_name": "هيئة المنافذ الحدودية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-01",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في بغداد",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في بغداد",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB",
+        "name": "أمانة بغداد",
+        "entity_name": "أمانة بغداد",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "SW-AB-SG",
+        "name": "ديوان الوقف الشيعي - العتبة العباسية المقدسة - مكتب الأمين العام",
+        "entity_name": "ديوان الوقف الشيعي",
+        "department_name": "العتبة العباسية المقدسة",
+        "section_name": "مكتب الأمين العام",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FA-CD",
+        "name": "وزارة الخارجية - الدائرة القنصلية",
+        "entity_name": "وزارة الخارجية",
+        "department_name": "الدائرة القنصلية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "TR-MO",
+        "name": "وزارة التجارة - مكتب الوزير",
+        "entity_name": "وزارة التجارة",
+        "department_name": "مكتب الوزير",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "AG-LA",
+        "name": "وزارة الزراعة - دائرة الأراضي الزراعية",
+        "entity_name": "وزارة الزراعة",
+        "department_name": "دائرة الأراضي الزراعية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-02-01",
+        "name": "دائرة الإدارية والمالية - قسم الخدمات الإدارية - شعبة الخدمات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الخدمات الإدارية",
+        "unit_name": "شعبة الخدمات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MOJ-IA",
+        "name": "وزارة العدل - دائرة التدقيق والرقابة الداخلية",
+        "entity_name": "وزارة العدل",
+        "department_name": "دائرة التدقيق والرقابة الداخلية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-G-03-01",
+        "name": "دائرة المجاميع السياحية - قسم السياحة الدينية - شعبة الإيرادات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المجاميع السياحية",
+        "section_name": "قسم السياحة الدينية",
+        "unit_name": "شعبة الإيرادات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-08-01",
+        "name": "دائرة المرافق السياحية - قسم التدريب والتطوير السياحي - شعبة التدريب",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "قسم التدريب والتطوير السياحي",
+        "unit_name": "شعبة التدريب",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "ED-PS",
+        "name": "وزارة التربية - المدارس الإعدادية",
+        "entity_name": "وزارة التربية",
+        "department_name": "المدارس الإعدادية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-14-03",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في كربلاء المقدسة - شعبة الإدارة والمحاسبة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في كربلاء المقدسة",
+        "unit_name": "شعبة الإدارة والمحاسبة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "WR-RD",
+        "name": "وزارة الموارد المائية - دائرة تنفيذ أعمال كري الانهر",
+        "entity_name": "وزارة الموارد المائية",
+        "department_name": "دائرة تنفيذ أعمال كري الانهر",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GO-DI-OM",
+        "name": "محافظة الديوانية - مكتب المحافظ",
+        "entity_name": "محافظة الديوانية",
+        "department_name": "مكتب المحافظ",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-G-01-01",
+        "name": "دائرة المجاميع السياحية - قسم المكتب الوطني - شعبة الإدارة والخدمات السياحية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المجاميع السياحية",
+        "section_name": "قسم المكتب الوطني",
+        "unit_name": "شعبة الإدارة والخدمات السياحية",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-G-03",
+        "name": "دائرة المجاميع السياحية - قسم السياحة الدينية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المجاميع السياحية",
+        "section_name": "قسم السياحة الدينية",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-05-02",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في ذي قار - شعبة التصنيف السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في ذي قار",
+        "unit_name": "شعبة التصنيف السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-02-01",
+        "name": "رئيس الهيئة - قسم التخطيط والمتابعة - شعبة التخطيط والمتابعة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم التخطيط والمتابعة",
+        "unit_name": "شعبة التخطيط والمتابعة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "IC-IB",
+        "name": "الهيئة المستقلة - هيئة استثمار بغداد",
+        "entity_name": "الهيئة المستقلة",
+        "department_name": "هيئة استثمار بغداد",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "NG-FA",
+        "name": "منظمات المجتمع المدني - جمعية فيضي حسيني",
+        "entity_name": "منظمات المجتمع المدني",
+        "department_name": "جمعية فيضي حسيني",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "WR-GW",
+        "name": "وزارة الموارد المائية - الهيئة العامة للمياه الجوفية",
+        "entity_name": "وزارة الموارد المائية",
+        "department_name": "الهيئة العامة للمياه الجوفية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FA-AM",
+        "name": "وزارة الخارجية - الدائرة الإدارية",
+        "entity_name": "وزارة الخارجية",
+        "department_name": "الدائرة الإدارية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FI-BS",
+        "name": "وزارة المالية - القطاع المصرفي / المصارف كافة - الإدارة العامة",
+        "entity_name": "وزارة المالية",
+        "department_name": "القطاع المصرفي / المصارف كافة",
+        "section_name": "الإدارة العامة",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-BW",
+        "name": "أمانة بغداد - دائرة ماء بغداد",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة ماء بغداد",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HO",
+        "name": "وزارة الإسكان والأعمار والتنمية",
+        "entity_name": "وزارة الإسكان والأعمار والتنمية",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "WR-NS",
+        "name": "وزارة الموارد المائية - مركز دراسات الموارد المائية (الشمالية)",
+        "entity_name": "وزارة الموارد المائية",
+        "department_name": "مركز دراسات الموارد المائية (الشمالية)",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MP-CS",
+        "name": "وزارة التخطيط - الجهاز المركزي للإحصاء",
+        "entity_name": "وزارة التخطيط",
+        "department_name": "الجهاز المركزي للإحصاء",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-00-01",
+        "name": "رئيس الهيئة - قسم مكتب رئيس الهيئة - الشعبة الرياضية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم مكتب رئيس الهيئة",
+        "unit_name": "الشعبة الرياضية",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "PR-CT",
+        "name": "مجلس النواب - لجنة الثقافة والسياحة والآثار والإعلام",
+        "entity_name": "مجلس النواب",
+        "department_name": "لجنة الثقافة والسياحة والآثار والإعلام",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "IN-SI",
+        "name": "وزارة الصناعة والمعادن - الشركة العامة للصناعات الفولاذية",
+        "entity_name": "وزارة الصناعة والمعادن",
+        "department_name": "الشركة العامة للصناعات الفولاذية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-03-04",
+        "name": "رئيس الهيئة - قسم الاستشارات الهندسية - شعبة التحسس النائي GIS",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم الاستشارات الهندسية",
+        "unit_name": "شعبة التحسس النائي GIS",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-AD",
+        "name": "أمانة بغداد - دائرة بلدية الاعظمية",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة بلدية الاعظمية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-04-02",
+        "name": "دائرة التفتيش والمتابعة - قسم الاجازات - شعبة منح وتجديد اجازات المحافظات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم الاجازات",
+        "unit_name": "شعبة منح وتجديد اجازات المحافظات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-11-02",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في الانبار - شعبة التصنيف السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في الانبار",
+        "unit_name": "شعبة التصنيف السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GO-BG-OM",
+        "name": "محافظة بغداد - مكتب المحافظ",
+        "entity_name": "محافظة بغداد",
+        "department_name": "مكتب المحافظ",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-MN",
+        "name": "وزارة التعليم العالي والبحث العلمي - كلية المنصور الجامعة",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "كلية المنصور الجامعة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-03-01",
+        "name": "دائرة الإدارية والمالية - قسم الصيانة - شعبة الميكانيك",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الصيانة",
+        "unit_name": "شعبة الميكانيك",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-UT",
+        "name": "وزارة التعليم العالي والبحث العلمي - الجامعة التكنولوجيا",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "الجامعة التكنولوجيا",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-BS",
+        "name": "أمانة بغداد - دائرة مجاري بغداد",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة مجاري بغداد",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-G-02-03",
+        "name": "دائرة المجاميع السياحية - قسم شركات السفر والسياحة - شعبة وكالات السفر",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المجاميع السياحية",
+        "section_name": "قسم شركات السفر والسياحة",
+        "unit_name": "شعبة وكالات السفر",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I",
+        "name": "دائرة التفتيش والمتابعة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "WR-DR",
+        "name": "وزارة الموارد المائية - الهيئة العامة للسدود والخزانات",
+        "entity_name": "وزارة الموارد المائية",
+        "department_name": "الهيئة العامة للسدود والخزانات",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MI-V-A",
+        "name": "وزارة الداخلية - دائرة الاقامة - العرب",
+        "entity_name": "وزارة الداخلية",
+        "department_name": "دائرة الاقامة",
+        "section_name": "العرب",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "IC",
+        "name": "الهيئة المستقلة",
+        "entity_name": "الهيئة المستقلة",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-PR",
+        "name": "أمانة بغداد - المديريات العامة للعلاقات والإعلام",
+        "entity_name": "أمانة بغداد",
+        "department_name": "المديريات العامة للعلاقات والإعلام",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GS-DC",
+        "name": "الأمانة العامة لمجلس الوزراء - مركز البيانات الوطني",
+        "entity_name": "الأمانة العامة لمجلس الوزراء",
+        "department_name": "مركز البيانات الوطني",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GO-NI-OM",
+        "name": "محافظة نينوى - مكتب المحافظ",
+        "entity_name": "محافظة نينوى",
+        "department_name": "مكتب المحافظ",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "PM-RF",
+        "name": "رئاسة مجلس الوزراء - صندوق استرداد أموال العراق",
+        "entity_name": "رئاسة مجلس الوزراء",
+        "department_name": "صندوق استرداد أموال العراق",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-IR",
+        "name": "أمانة بغداد - شركة أبن رشد العامة",
+        "entity_name": "أمانة بغداد",
+        "department_name": "شركة أبن رشد العامة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GS",
+        "name": "الأمانة العامة لمجلس الوزراء",
+        "entity_name": "الأمانة العامة لمجلس الوزراء",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GO-SD-OM",
+        "name": "محافظة صلاح الدين - مكتب المحافظ",
+        "entity_name": "محافظة صلاح الدين",
+        "department_name": "مكتب المحافظ",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HPM-BO-IS",
+        "name": "رئيس الوزراء - القائد العام للقوات المسلحة - قيادة عمليات بغداد - الأستخبارات والأمن",
+        "entity_name": "رئيس الوزراء",
+        "department_name": "القائد العام للقوات المسلحة",
+        "section_name": "قيادة عمليات بغداد",
+        "unit_name": "الأستخبارات والأمن",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MJ-AC",
+        "name": "مجلس القضاء الأعلى - رئاسة محكمة أستئناف بغداد / الكرخ",
+        "entity_name": "مجلس القضاء الأعلى",
+        "department_name": "رئاسة محكمة أستئناف بغداد / الكرخ",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FI-TC",
+        "name": "وزارة المالية - الهيئة العامة للضرائب",
+        "entity_name": "وزارة المالية",
+        "department_name": "الهيئة العامة للضرائب",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MOJ-HR",
+        "name": "وزارة العدل - دائرة حقوق الإنسان",
+        "entity_name": "وزارة العدل",
+        "department_name": "دائرة حقوق الإنسان",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "PR",
+        "name": "مجلس النواب",
+        "entity_name": "مجلس النواب",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MJ-BB",
+        "name": "مجلس القضاء الأعلى - رئاسة محكمة أستئناف بابل",
+        "entity_name": "مجلس القضاء الأعلى",
+        "department_name": "رئاسة محكمة أستئناف بابل",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HS-MH",
+        "name": "إدارة شركة الفنادق السياحية - فندق المنصور",
+        "entity_name": "إدارة شركة الفنادق السياحية",
+        "department_name": "فندق المنصور",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-G-01",
+        "name": "دائرة المجاميع السياحية - قسم المكتب الوطني",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المجاميع السياحية",
+        "section_name": "قسم المكتب الوطني",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-GH",
+        "name": "أمانة بغداد - دائرة بلدية الغدير",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة بلدية الغدير",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MOJ-IG",
+        "name": "وزارة العدل - دائرة الوقائع العراقية",
+        "entity_name": "وزارة العدل",
+        "department_name": "دائرة الوقائع العراقية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-05-04",
+        "name": "دائرة الإدارية والمالية - قسم الشؤون المالية - شعبة إدارة المواد",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الشؤون المالية",
+        "unit_name": "شعبة إدارة المواد",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-06-02",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في كركوك - شعبة التصنيف السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في كركوك",
+        "unit_name": "شعبة التصنيف السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FI-MO",
+        "name": "وزارة المالية - مكتب الوزير",
+        "entity_name": "وزارة المالية",
+        "department_name": "مكتب الوزير",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-05",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في ذي قار",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في ذي قار",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-04-01",
+        "name": "دائرة الإدارية والمالية - قسم السلامة المهنية - شعبة التوعية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم السلامة المهنية",
+        "unit_name": "شعبة التوعية",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-00-01",
+        "name": "دائرة التفتيش والمتابعة - شعبة مكتب المدير العام",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "شعبة مكتب المدير العام",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-06-01",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في كركوك - شعبة التفتيش السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في كركوك",
+        "unit_name": "شعبة التفتيش السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-IU",
+        "name": "وزارة التعليم العالي والبحث العلمي - الجامعة العراقية",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "الجامعة العراقية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "NG-AJ",
+        "name": "الهيئة الوطنية العليا للمساءلة والعدالة",
+        "entity_name": "الهيئة الوطنية العليا للمساءلة والعدالة",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-06-01",
+        "name": "رئيس الهيئة - قسم العقود والاستثمار - شعبة المناقصات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم العقود والاستثمار",
+        "unit_name": "شعبة المناقصات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MI-OC-IF-ID-IC",
+        "name": "وزارة الداخلية - وكالة الوزارة لشؤون الأستخبارات والتحقيقات الاتحادية - مديرية مكافحة الجريمة المنظمة / بغداد - قسم التحقيق - وحدة مكافحة الغش الصناعي",
+        "entity_name": "وزارة الداخلية",
+        "department_name": "وكالة الوزارة لشؤون الأستخبارات والتحقيقات الاتحادية",
+        "section_name": "مديرية مكافحة الجريمة المنظمة / بغداد",
+        "unit_name": "قسم التحقيق",
+        "sub_unit_name": "وحدة مكافحة الغش الصناعي",
+        "logo": null
+    },
+    {
+        "id": "T-F-03",
+        "name": "رئيس الهيئة - قسم الاستشارات الهندسية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم الاستشارات الهندسية",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-04-04",
+        "name": "رئيس الهيئة - قسم العلاقات والاعلام - شعبة المكتبة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم العلاقات والاعلام",
+        "unit_name": "شعبة المكتبة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-11-04",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في الانبار - شعبة سياحة حديثة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في الانبار",
+        "unit_name": "شعبة سياحة حديثة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-MN",
+        "name": "أمانة بغداد - دائرة بلدية المنصور",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة بلدية المنصور",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-04-01",
+        "name": "دائرة المرافق السياحية - قسم جزيرة الاعراس السياحية - شعبة الموارد البشرية",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "قسم جزيرة الاعراس السياحية",
+        "unit_name": "شعبة الموارد البشرية",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-09-03",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في الديوانية - شعبة الإدارة والمحاسبة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في الديوانية",
+        "unit_name": "شعبة الإدارة والمحاسبة",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-00-01",
+        "name": "دائرة المرافق السياحية - شعبة مكتب المدير العام",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "شعبة مكتب المدير العام",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-S1",
+        "name": "أمانة بغداد - دائرة بلدية الصدر الأولى",
+        "entity_name": "أمانة بغداد",
+        "department_name": "دائرة بلدية الصدر الأولى",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MJ-BS",
+        "name": "مجلس القضاء الأعلى - محكمة أستئناف البصرة - رئاسة المحكمة",
+        "entity_name": "مجلس القضاء الأعلى",
+        "department_name": "محكمة أستئناف البصرة",
+        "section_name": "رئاسة المحكمة",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "IN-MO",
+        "name": "وزارة الصناعة والمعادن - مكتب الوزير",
+        "entity_name": "وزارة الصناعة والمعادن",
+        "department_name": "مكتب الوزير",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-01-02",
+        "name": "رئيس الهيئة - قسم مكتب رئيس الهيئة - شعبة القلم السري",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم مكتب رئيس الهيئة",
+        "unit_name": "شعبة القلم السري",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-14",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في كربلاء المقدسة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في كربلاء المقدسة",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MP-GC",
+        "name": "وزارة التخطيط - دائرة العقود العامة الحكومية",
+        "entity_name": "وزارة التخطيط",
+        "department_name": "دائرة العقود العامة الحكومية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "GO-BS-OM",
+        "name": "محافظة البصرة - مكتب المحافظ",
+        "entity_name": "محافظة البصرة",
+        "department_name": "مكتب المحافظ",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "PS",
+        "name": "القطاع الخاص",
+        "entity_name": "القطاع الخاص",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-02",
+        "name": "رئيس الهيئة - قسم التخطيط والمتابعة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم التخطيط والمتابعة",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FI-UB",
+        "name": "مصرف الأتحاد العراقي - شركة مساهمة خاصة",
+        "entity_name": "مصرف الأتحاد العراقي",
+        "department_name": "شركة مساهمة خاصة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "LB-SS",
+        "name": "وزارة العمل والشؤون الاجتماعية - التقاعد والضمان الاجتماعي",
+        "entity_name": "وزارة العمل والشؤون الاجتماعية",
+        "department_name": "التقاعد والضمان الاجتماعي",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-00-03",
+        "name": "دائرة المرافق السياحية - شعبة فندق الرشيد",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "شعبة فندق الرشيد",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MC-CC",
+        "name": "وزارة الثقافة والسياحة والآثار - دار ثقافة الأطفال",
+        "entity_name": "وزارة الثقافة والسياحة والآثار",
+        "department_name": "دار ثقافة الأطفال",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-F-02",
+        "name": "دائرة المرافق السياحية - قسم الشركات السياحية المختلطة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المرافق السياحية",
+        "section_name": "قسم الشركات السياحية المختلطة",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MB-WP",
+        "name": "أمانة بغداد - شركة تنفيذ مشاريع الماء",
+        "entity_name": "أمانة بغداد",
+        "department_name": "شركة تنفيذ مشاريع الماء",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-03-02",
+        "name": "دائرة التفتيش والمتابعة - قسم التصنيف - شعبة تصنيف المحافظات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم التصنيف",
+        "unit_name": "شعبة تصنيف المحافظات",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MP-IC",
+        "name": "وزارة التخطيط - دائرة التعاون الدولي",
+        "entity_name": "وزارة التخطيط",
+        "department_name": "دائرة التعاون الدولي",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MO",
+        "name": "وزارة النفط",
+        "entity_name": "وزارة النفط",
+        "department_name": null,
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-G-00-01",
+        "name": "دائرة المجاميع السياحية - شعبة مكتب المدير العام",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة المجاميع السياحية",
+        "section_name": "شعبة مكتب المدير العام",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-02",
+        "name": "دائرة التفتيش والمتابعة - قسم التنسيق والمتابعة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم التنسيق والمتابعة",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-10-01",
+        "name": "دائرة التفتيش والمتابعة - قسم السياحي في بابل - شعبة التفتيش السياحي",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم السياحي في بابل",
+        "unit_name": "شعبة التفتيش السياحي",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "WR-PM",
+        "name": "وزارة الموارد المائية - دائرة التخطيط والمتابعة",
+        "entity_name": "وزارة الموارد المائية",
+        "department_name": "دائرة التخطيط والمتابعة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "FA-HR",
+        "name": "وزارة الخارجية - دائرة حقوق الإنسان",
+        "entity_name": "وزارة الخارجية",
+        "department_name": "دائرة حقوق الإنسان",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-A-05-02",
+        "name": "دائرة الإدارية والمالية - قسم الشؤون المالية - شعبة الصندوق",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة الإدارية والمالية",
+        "section_name": "قسم الشؤون المالية",
+        "unit_name": "شعبة الصندوق",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-I-02-05",
+        "name": "دائرة التفتيش والمتابعة - قسم التنسيق والمتابعة - شعبة سياحة ميسان",
+        "entity_name": "هيئة السياحة",
+        "department_name": "دائرة التفتيش والمتابعة",
+        "section_name": "قسم التنسيق والمتابعة",
+        "unit_name": "شعبة سياحة ميسان",
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "WR-GD",
+        "name": "وزارة الموارد المائية - دائرة المصب العام",
+        "entity_name": "وزارة الموارد المائية",
+        "department_name": "دائرة المصب العام",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T",
+        "name": "رئيس الهيئة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "MP-IP",
+        "name": "وزارة التخطيط - دائرة البرامج الاستثمارية الحكومية",
+        "entity_name": "وزارة التخطيط",
+        "department_name": "دائرة البرامج الاستثمارية الحكومية",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "HE-RF",
+        "name": "وزارة التعليم العالي والبحث العلمي - كلية الرافدين الجامعة",
+        "entity_name": "وزارة التعليم العالي والبحث العلمي",
+        "department_name": "كلية الرافدين الجامعة",
+        "section_name": null,
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-01",
+        "name": "رئيس الهيئة - قسم مكتب رئيس الهيئة",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم مكتب رئيس الهيئة",
+        "unit_name": null,
+        "sub_unit_name": null,
+        "logo": null
+    },
+    {
+        "id": "T-O-02-02",
+        "name": "رئيس الهيئة - قسم التخطيط والمتابعة - شعبة الدراسات",
+        "entity_name": "هيئة السياحة",
+        "department_name": "رئيس الهيئة",
+        "section_name": "قسم التخطيط والمتابعة",
+        "unit_name": "شعبة الدراسات",
+        "sub_unit_name": null,
+        "logo": null
+    }
+]

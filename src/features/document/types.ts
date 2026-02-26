@@ -35,10 +35,27 @@ export interface UpdateDocumentPayload {
  * Request body for POST /documents/create/
  * Field names must match the backend spec exactly.
  */
+export interface ReceivedOrganizationEntry {
+    organization: string;
+    notes: string;
+    duration: number;
+    follow_up_org: string;
+}
+
 export interface SubmitDocumentRequest {
     sender_organization: string;
-    received_organization: { organization: string }[];
+    is_submitted: boolean;
+    document_category: number;
+    document_status: number;
+    document_type: number;
+    process_tracker: number;
+    received_organization: ReceivedOrganizationEntry[];
+    title: string;
     content: string;
+    signature: number;
+    signature_date: string;
+    notes: string;
+    is_payment_required: boolean;
 }
 
 /**
