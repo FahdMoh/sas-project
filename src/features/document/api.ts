@@ -80,7 +80,7 @@ export const submitDocument = async (
     }
     try {
         const { data } = await httpClient.post<SubmitDocumentResponse>(
-            '/documents/create/',
+            '/document/',
             payload
         );
         return data;

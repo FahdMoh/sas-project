@@ -7,22 +7,21 @@ const MOCK_VALID_EMAIL = 'test@test.com';
 
 /** Internal payload shape expected by the backend */
 interface BackendLoginPayload {
-    email: string;
+    email_or_phone_number: string;
     password: string;
 }
 
 /**
- * Maps the client-side LoginRequest (which uses `email`)
- * to the backend payload (which uses `email`).
+ * Maps the client-side LoginRequest to the backend payload.
  */
 const toBackendPayload = (credentials: LoginRequest): BackendLoginPayload => ({
-    email: credentials.email,
+    email_or_phone_number: credentials.email_or_phone_number,
     password: credentials.password,
 });
 
 /** Simulates a successful login response. */
 const mockLoginSuccess = (credentials: LoginRequest): LoginResponse => ({
-    email: credentials.email,
+    email_or_phone_number: credentials.email_or_phone_number,
     token: {
         access:
             'mock.access.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6Ik1vY2sgVXNlciIsImlhdCI6MTUxNjIzOTAyMn0.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c',
@@ -41,7 +40,7 @@ const mockLogin = (credentials: LoginRequest): Promise<LoginResponse> => {
     return new Promise((resolve, reject) =>
         setTimeout(() => {
             if (
-                payload.email === MOCK_VALID_EMAIL &&
+                payload.email_or_phone_number === MOCK_VALID_EMAIL &&
                 payload.password.trim().length > 0
             ) {
                 resolve(mockLoginSuccess(credentials));
