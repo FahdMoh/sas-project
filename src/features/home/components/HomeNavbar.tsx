@@ -218,9 +218,9 @@ const BarcodeStrip: React.FC<{ style?: React.CSSProperties }> = ({ style }) => (
 //  Nav link data
 // ─────────────────────────────────────────────────────────────────────────────
 const NAV_LINKS: { label: string; href: string }[] = [
-  { label: "ABOUT", href: "#" },
+  { label: "ABOUT", href: "/" },
   { label: "FORM", href: "/form" },
-  { label: "LOGIN", href: "#" },
+  { label: "LOGIN", href: "/" },
 ];
 
 // ─────────────────────────────────────────────────────────────────────────────

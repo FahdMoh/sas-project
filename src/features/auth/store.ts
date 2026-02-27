@@ -22,7 +22,7 @@ export const useAuthStore = create<AuthStore>((set) => ({
         setTokens(response.token.access, response.token.refresh);
         set({
             isAuthenticated: true,
-            user: response.email,
+            user: response.email_or_phone_number,
         });
     },
 
