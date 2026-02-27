@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import FormPageLayout from "@/features/home/components/FormPageLayout";
 import HierarchySelector from "@/features/organizations/components/HierarchySelector/HierarchySelector";
 import RichTextEditor from "@/shared/components/editor/RichTextEditor";
 import {
@@ -9,7 +10,6 @@ import {
 import { submitDocument } from "@/features/document/api";
 import type { Organization } from "@/features/organizations/types";
 import { CyberButton } from "@/shared/components/ui/CyberButton";
-import { PageMask } from "@/shared/components/ui/PageMask";
 
 // ---------------------------------------------------------------------------
 // Types
@@ -148,10 +148,8 @@ const DocumentFormPage = () => {
 
   // --- Render ---
   return (
-    <div className="flex flex-col relative min-h-screen w-full bg-black text-white">
-      <PageMask />
-
-      <div className="flex flex-col p-8 flex-grow">
+    <FormPageLayout>
+      <div className="flex flex-col p-8 flex-grow text-white">
         <div className="mx-auto  w-full rounded-xl border border-[#ea8cff]/20 bg-black p-8">
           {isLoadingOrgs ? (
             <p className="text-sm text-[#ea8cff]/60">Loading organizations…</p>
@@ -242,7 +240,7 @@ const DocumentFormPage = () => {
         </div>
         {/* /card */}
       </div>
-    </div>
+    </FormPageLayout>
   );
 };
 
