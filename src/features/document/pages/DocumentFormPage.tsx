@@ -149,8 +149,8 @@ const DocumentFormPage = () => {
   // --- Render ---
   return (
     <FormPageLayout>
-      <div className="flex flex-col p-8 flex-grow text-white">
-        <div className="mx-auto  w-full rounded-xl border border-[#ea8cff]/20 bg-black p-8">
+      <div className="flex flex-col p-3 sm:p-5 lg:p-8 flex-grow text-white">
+        <div className="mx-auto w-full bg-black p-3 sm:p-5 lg:p-8">
           {isLoadingOrgs ? (
             <p className="text-sm text-[#ea8cff]/60">Loading organizations…</p>
           ) : (
@@ -174,7 +174,7 @@ const DocumentFormPage = () => {
                             </h2> */}
                 <HierarchySelector
                   data={senderOrgs}
-                  label="Select sending organization"
+                  label="Sender"
                   onChange={setSenderOrgId}
                 />
                 {senderOrgId && (
@@ -187,40 +187,42 @@ const DocumentFormPage = () => {
 
               {/* ── Received Organizations ── */}
               <section className="flex flex-col gap-4">
-                <h2 className="font-black italic tracking-widest text-sm text-[#ea8cff]">
-                  RECEIVED ORGANIZATIONS
-                </h2>
-
                 {recipients.map((recipient, index) => (
                   <div key={recipient.key} className="relative">
                     <HierarchySelector
                       data={receivedOrgs}
-                      label={`Recipient ${index + 1}`}
+                      label={`received ${index + 1}`}
                       onChange={(id) => updateRecipient(recipient.key, id)}
                     />
                     {recipients.length > 1 && (
                       <button
                         type="button"
                         onClick={() => removeRecipient(recipient.key)}
-                        className="absolute right-3 top-3 text-xs text-red-400 hover:text-red-300"
+                        className="absolute right-3 top-3 px-2 py-0.5 text-[10px] font-bold italic tracking-widest border border-red-500/50 text-red-400 bg-transparent hover:bg-red-500/10 hover:border-red-400 hover:text-red-300 transition-colors duration-200"
+                        style={{
+                          clipPath:
+                            "polygon(0 0,88% 0,100% 40%,100% 100%,12% 100%,0 60%)",
+                        }}
                         title="Remove recipient"
                       >
-                        ✕ Remove
+                        ✕ REMOVE
                       </button>
                     )}
                   </div>
                 ))}
 
-                <CyberButton
+                <button
                   type="button"
                   onClick={addRecipient}
-                  className="px-8 py-4 min-w-[200px] text-base md:text-base"
+                  className=" w-full self-start px-4 py-2.5 text-xs font-bold italic tracking-widest border border-[#eb9bff] text-[#eb9bff] bg-transparent hover:bg-[#eb9bff]/10 transition-colors duration-200 rounded disabled:opacity-50 disabled:cursor-not-allowed"
+                  style={{ borderRadius: "8px", border: "2px solid #eb9bff" }}
                 >
-                  + Add Recipient
-                </CyberButton>
+                  + Add Received
+                </button>
               </section>
 
               {/* ── CONTENT ── */}
+
               <RichTextEditor
                 value={content}
                 onChange={setContent}
@@ -231,7 +233,7 @@ const DocumentFormPage = () => {
               <CyberButton
                 type="submit"
                 disabled={isSubmitting}
-                className="mt-2 self-end px-10 py-5 min-w-[220px]"
+                className="mt-2 self-end px-5 py-3 min-w-[140px] sm:px-8 sm:py-4 sm:min-w-[180px] lg:px-10 lg:py-5 lg:min-w-[220px]"
               >
                 {isSubmitting ? "Submitting…" : "Submit"}
               </CyberButton>

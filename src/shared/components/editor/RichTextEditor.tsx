@@ -57,7 +57,7 @@ const RichTextEditor = ({
       <div
         className={[
           // ── Border / shape (matches CyberInput border shell)
-          "w-full rounded-xl border-[3px] border-[#ea8cff]",
+          "w-full h-65 rounded-xl border-[3px] border-[#ea8cff]",
           "focus-within:border-white focus-within:ring-1 focus-within:ring-white",
           "transition-colors overflow-hidden",
 

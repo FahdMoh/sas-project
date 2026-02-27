@@ -130,7 +130,7 @@ const CyberDropdown: React.FC<CyberDropdownProps> = ({
     const borderColor = error ? '#ef4444' : '#ea8cff';
 
     return (
-        <div ref={containerRef} className={`relative w-full ${className}`}>
+        <div ref={containerRef} className={`relative ${className}`}>
             {/* Floating label */}
             <label
                 htmlFor={dropdownId}
@@ -152,7 +152,7 @@ const CyberDropdown: React.FC<CyberDropdownProps> = ({
                 disabled={disabled}
                 onClick={handleToggle}
                 onKeyDown={handleKeyDown}
-                className="w-full flex items-center justify-between px-4 py-4 bg-transparent text-left transition-colors duration-200 focus:outline-none disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-60 h-23 flex items-center justify-between px-4 py-4 bg-transparent text-left transition-colors duration-200 focus:outline-none disabled:opacity-50 disabled:cursor-not-allowed"
                 style={{
                     border: `3px solid ${isOpen ? '#ffffff' : borderColor}`,
                     borderRadius: '0.75rem',
