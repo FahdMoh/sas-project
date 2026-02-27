@@ -214,9 +214,9 @@ const LoginPage = () => {
             type="submit"
             form="login-form"
             disabled={isLoading}
-            className="w-full py-5 text-sm"
+            className="w-full py-5 text-[10px]"
           >
-            {isLoading ? "Signing in…" : "Submit"}
+            {isLoading ? "Logging in..." : "LOGIN"}
           </CyberButton>
         </div>
         <svg

@@ -235,7 +235,7 @@ const DocumentFormPage = () => {
                 disabled={isSubmitting}
                 className="mt-2 self-end px-5 py-3 min-w-[140px] sm:px-8 sm:py-4 sm:min-w-[180px] lg:px-10 lg:py-5 lg:min-w-[220px]"
               >
-                {isSubmitting ? "Submitting…" : "Submit"}
+                {isSubmitting ? "NEXT.." : "Next"}
               </CyberButton>
             </form>
           )}

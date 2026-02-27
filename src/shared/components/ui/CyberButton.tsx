@@ -42,7 +42,7 @@ export const CyberButton: React.FC<CyberButtonProps> = ({
   return (
     <button
       {...props}
-      className={`cyber-btn relative bg-[#0bd3e8] text-black font-black italic text-xl md:text-3xl flex items-center justify-center active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed select-none ${className}`}
+      className={`cyber-btn relative bg-[#0bd3e8] text-black font-black italic text-sm md:text-2xl flex items-center justify-center active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed select-none ${className}`}
       style={{ clipPath }}
     >
       {/* ── Scanline overlay ── */}
