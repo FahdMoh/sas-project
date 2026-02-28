@@ -246,10 +246,7 @@ export const HomePageLayout: React.FC<HomePageLayoutProps> = ({
       <div
         aria-hidden="true"
         style={{
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          right: 0,
+        
           zIndex: 3,
           pointerEvents: 'none',
         }}

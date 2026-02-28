@@ -10,8 +10,8 @@ import React from "react";
  */
 const ExcellenceLogo: React.FC = () => (
   <svg
-    width="180"
-    height="18"
+    width="220"
+    height="60"
     viewBox="0 0 298 30"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -106,121 +106,306 @@ const ExcellenceLogo: React.FC = () => (
  * Sized-down and placed ABOVE each individual nav link.
  */
 const BarcodeStrip: React.FC<{ style?: React.CSSProperties }> = ({ style }) => (
-  <svg
-    width="101"
-    height="20"
-    viewBox="0 0 101 20"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    style={style}
-  >
-    <path
-      d="M99.8223 10.7266V8.48067H0.00164795V10.7266H99.8223Z"
-      fill="#FF62FC"
-    />
-    <path
-      d="M100.025 16.7507V2.65675H98.9015V16.7507H100.025Z"
-      fill="#FF62FC"
-    />
-    <path
-      d="M1.12311 16.7508V2.65683H2.70605e-05V16.7508H1.12311Z"
-      fill="#FF62FC"
-    />
-    <path d="M97.2164 19.2071V0H96.6548V19.2071H97.2164Z" fill="#6D2EC5" />
-    <path d="M96.0943 16.2537V3.1539H95.5328V16.2537H96.0943Z" fill="#6D2EC5" />
-    <path d="M94.9687 16.2537V3.1539H94.4064V16.2537H94.9687Z" fill="#6D2EC5" />
-    <path d="M93.8469 16.2537V3.1539H93.2846V16.2537H93.8469Z" fill="#6D2EC5" />
-    <path d="M92.725 16.2537V3.1539H92.1635V16.2537H92.725Z" fill="#6D2EC5" />
-    <path d="M91.5992 19.2071V0H91.0377V19.2071H91.5992Z" fill="#6D2EC5" />
-    <path d="M90.4774 16.2537V3.1539H89.9151V16.2537H90.4774Z" fill="#6D2EC5" />
-    <path d="M89.3513 16.2537V3.1539H88.7897V16.2537H89.3513Z" fill="#6D2EC5" />
-    <path d="M88.2297 16.2537V3.1539H87.6681V16.2537H88.2297Z" fill="#6D2EC5" />
-    <path d="M87.1076 16.2537V3.1539H86.5453V16.2537H87.1076Z" fill="#6D2EC5" />
-    <path d="M85.9821 19.2071V0H85.4198V19.2071H85.9821Z" fill="#6D2EC5" />
-    <path d="M84.8603 16.2537V3.1539H84.2987V16.2537H84.8603Z" fill="#6D2EC5" />
-    <path d="M83.7387 16.2537V3.1539H83.1772V16.2537H83.7387Z" fill="#6D2EC5" />
-    <path d="M82.6126 16.2537V3.1539H82.0503V16.2537H82.6126Z" fill="#6D2EC5" />
-    <path d="M81.4908 16.2537V3.1539H80.9285V16.2537H81.4908Z" fill="#6D2EC5" />
-    <path d="M80.3649 19.2071V0H79.8034V19.2071H80.3649Z" fill="#6D2EC5" />
-    <path d="M79.2435 16.2537V3.1539H78.6819V16.2537H79.2435Z" fill="#6D2EC5" />
-    <path d="M78.1213 16.2537V3.1539H77.559V16.2537H78.1213Z" fill="#6D2EC5" />
-    <path d="M76.9997 16.2537V3.1539H76.4374V16.2537H76.9997Z" fill="#6D2EC5" />
-    <path d="M75.8736 16.2537V3.1539H75.312V16.2537H75.8736Z" fill="#6D2EC5" />
-    <path d="M74.7479 19.2071V0H74.1863V19.2071H74.7479Z" fill="#6D2EC5" />
-    <path d="M73.6263 16.2537V3.1539H73.064V16.2537H73.6263Z" fill="#6D2EC5" />
-    <path d="M72.5045 16.2537V3.1539H71.9422V16.2537H72.5045Z" fill="#6D2EC5" />
-    <path d="M71.3825 16.2537V3.1539H70.821V16.2537H71.3825Z" fill="#6D2EC5" />
-    <path d="M70.261 16.2537V3.1539H69.6988V16.2537H70.261Z" fill="#6D2EC5" />
-    <path d="M69.1347 19.2071V0H68.5724V19.2071H69.1347Z" fill="#6D2EC5" />
-    <path d="M68.0092 16.2537V3.1539H67.4469V16.2537H68.0092Z" fill="#6D2EC5" />
-    <path d="M66.8873 16.2537V3.1539H66.3257V16.2537H66.8873Z" fill="#6D2EC5" />
-    <path d="M65.7658 16.2537V3.1539H65.2035V16.2537H65.7658Z" fill="#6D2EC5" />
-    <path d="M64.6439 16.2537V3.1539H64.0816V16.2537H64.6439Z" fill="#6D2EC5" />
-    <path d="M63.5178 19.2071V0H62.9555V19.2071H63.5178Z" fill="#6D2EC5" />
-    <path d="M62.392 16.2537V3.1539H61.8305V16.2537H62.392Z" fill="#6D2EC5" />
-    <path d="M61.2744 16.2537V3.1539H60.7121V16.2537H61.2744Z" fill="#6D2EC5" />
-    <path d="M60.1484 16.2537V3.1539H59.5861V16.2537H60.1484Z" fill="#6D2EC5" />
-    <path d="M59.0268 16.2537V3.1539H58.4653V16.2537H59.0268Z" fill="#6D2EC5" />
-    <path d="M57.9007 19.2071V0H57.3392V19.2071H57.9007Z" fill="#6D2EC5" />
-    <path d="M56.7791 16.2537V3.1539H56.2168V16.2537H56.7791Z" fill="#6D2EC5" />
-    <path d="M55.6573 16.2537V3.1539H55.095V16.2537H55.6573Z" fill="#6D2EC5" />
-    <path d="M54.5316 16.2537V3.1539H53.97V16.2537H54.5316Z" fill="#6D2EC5" />
-    <path d="M53.4096 16.2537V3.1539H52.8473V16.2537H53.4096Z" fill="#6D2EC5" />
-    <path d="M52.288 19.2071V0H51.7258V19.2071H52.288Z" fill="#6D2EC5" />
-    <path d="M51.1618 16.2537V3.1539H50.6003V16.2537H51.1618Z" fill="#6D2EC5" />
-    <path d="M50.0401 16.2537V3.1539H49.4786V16.2537H50.0401Z" fill="#6D2EC5" />
-    <path d="M48.9144 16.2537V3.1539H48.3521V16.2537H48.9144Z" fill="#6D2EC5" />
-    <path d="M47.7928 16.2537V3.1539H47.2305V16.2537H47.7928Z" fill="#6D2EC5" />
-    <path d="M46.671 19.2071V0H46.1094V19.2071H46.671Z" fill="#6D2EC5" />
-    <path d="M45.5449 16.2537V3.1539H44.9833V16.2537H45.5449Z" fill="#6D2EC5" />
-    <path d="M44.4236 16.2537V3.1539H43.8614V16.2537H44.4236Z" fill="#6D2EC5" />
-    <path d="M43.3015 16.2537V3.1539H42.7392V16.2537H43.3015Z" fill="#6D2EC5" />
-    <path d="M42.1755 16.2537V3.1539H41.6139V16.2537H42.1755Z" fill="#6D2EC5" />
-    <path d="M41.0538 19.2071V0H40.4922V19.2071H41.0538Z" fill="#6D2EC5" />
-    <path d="M39.9323 16.2537V3.1539H39.37V16.2537H39.9323Z" fill="#6D2EC5" />
-    <path d="M38.8065 16.2537V3.1539H38.2442V16.2537H38.8065Z" fill="#6D2EC5" />
-    <path d="M37.6844 16.2537V3.1539H37.1228V16.2537H37.6844Z" fill="#6D2EC5" />
-    <path d="M36.5585 16.2537V3.1539H35.9963V16.2537H36.5585Z" fill="#6D2EC5" />
-    <path d="M35.4371 19.2071V0H34.8748V19.2071H35.4371Z" fill="#6D2EC5" />
-    <path d="M34.3151 16.2537V3.1539H33.7529V16.2537H34.3151Z" fill="#6D2EC5" />
-    <path d="M33.1891 16.2537V3.1539H32.6276V16.2537H33.1891Z" fill="#6D2EC5" />
-    <path d="M32.0672 16.2537V3.1539H31.5049V16.2537H32.0672Z" fill="#6D2EC5" />
-    <path d="M30.9456 16.2537V3.1539H30.3833V16.2537H30.9456Z" fill="#6D2EC5" />
-    <path d="M29.8199 19.2071V0H29.2576V19.2071H29.8199Z" fill="#6D2EC5" />
-    <path d="M28.6981 16.2537V3.1539H28.1365V16.2537H28.6981Z" fill="#6D2EC5" />
-    <path d="M27.5722 16.2537V3.1539H27.0099V16.2537H27.5722Z" fill="#6D2EC5" />
-    <path d="M26.4507 16.2537V3.1539H25.8885V16.2537H26.4507Z" fill="#6D2EC5" />
-    <path d="M25.3243 16.2537V3.1539H24.7627V16.2537H25.3243Z" fill="#6D2EC5" />
-    <path d="M24.2026 19.2071V0H23.641V19.2071H24.2026Z" fill="#6D2EC5" />
-    <path d="M23.0809 16.2537V3.1539H22.5186V16.2537H23.0809Z" fill="#6D2EC5" />
-    <path d="M21.9551 16.2537V3.1539H21.3936V16.2537H21.9551Z" fill="#6D2EC5" />
-    <path d="M20.8336 16.2537V3.1539H20.2713V16.2537H20.8336Z" fill="#6D2EC5" />
-    <path d="M19.7114 16.2537V3.1539H19.1491V16.2537H19.7114Z" fill="#6D2EC5" />
-    <path d="M18.5856 19.2071V0H18.0233V19.2071H18.5856Z" fill="#6D2EC5" />
-    <path d="M17.4638 16.2537V3.1539H16.9023V16.2537H17.4638Z" fill="#6D2EC5" />
-    <path d="M16.338 16.2537V3.1539H15.7764V16.2537H16.338Z" fill="#6D2EC5" />
-    <path d="M15.2162 16.2537V3.1539H14.654V16.2537H15.2162Z" fill="#6D2EC5" />
-    <path d="M14.0943 16.2537V3.1539H13.532V16.2537H14.0943Z" fill="#6D2EC5" />
-    <path d="M12.9684 19.2071V0H12.4069V19.2071H12.9684Z" fill="#6D2EC5" />
-    <path d="M11.8466 16.2537V3.1539H11.2851V16.2537H11.8466Z" fill="#6D2EC5" />
-    <path d="M10.725 16.2537V3.1539H10.1628V16.2537H10.725Z" fill="#6D2EC5" />
-    <path d="M9.5993 16.2537V3.1539H9.03704V16.2537H9.5993Z" fill="#6D2EC5" />
-    <path d="M8.47711 16.2537V3.1539H7.91558V16.2537H8.47711Z" fill="#6D2EC5" />
-    <path d="M7.3559 19.2071V0H6.79437V19.2071H7.3559Z" fill="#6D2EC5" />
-    <path d="M6.22961 16.2537V3.1539H5.66735V16.2537H6.22961Z" fill="#6D2EC5" />
-    <path d="M5.10797 16.2537V3.1539H4.5457V16.2537H5.10797Z" fill="#6D2EC5" />
-    <path d="M3.98224 16.2537V3.1539H3.42071V16.2537H3.98224Z" fill="#6D2EC5" />
-    <path d="M2.86066 16.2537V3.1539H2.29839V16.2537H2.86066Z" fill="#6D2EC5" />
-  </svg>
+  <div className="flex justify-center align-top">
+    <svg
+      width="200"
+      height="90"
+      viewBox="0 0 101 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      style={style}
+    >
+      <path
+        d="M99.8223 10.7266V8.48067H0.00164795V10.7266H99.8223Z"
+        fill="#FF62FC"
+      />
+      <path
+        d="M100.025 16.7507V2.65675H98.9015V16.7507H100.025Z"
+        fill="#FF62FC"
+      />
+      <path
+        d="M1.12311 16.7508V2.65683H2.70605e-05V16.7508H1.12311Z"
+        fill="#FF62FC"
+      />
+      <path d="M97.2164 19.2071V0H96.6548V19.2071H97.2164Z" fill="#6D2EC5" />
+      <path
+        d="M96.0943 16.2537V3.1539H95.5328V16.2537H96.0943Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M94.9687 16.2537V3.1539H94.4064V16.2537H94.9687Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M93.8469 16.2537V3.1539H93.2846V16.2537H93.8469Z"
+        fill="#6D2EC5"
+      />
+      <path d="M92.725 16.2537V3.1539H92.1635V16.2537H92.725Z" fill="#6D2EC5" />
+      <path d="M91.5992 19.2071V0H91.0377V19.2071H91.5992Z" fill="#6D2EC5" />
+      <path
+        d="M90.4774 16.2537V3.1539H89.9151V16.2537H90.4774Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M89.3513 16.2537V3.1539H88.7897V16.2537H89.3513Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M88.2297 16.2537V3.1539H87.6681V16.2537H88.2297Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M87.1076 16.2537V3.1539H86.5453V16.2537H87.1076Z"
+        fill="#6D2EC5"
+      />
+      <path d="M85.9821 19.2071V0H85.4198V19.2071H85.9821Z" fill="#6D2EC5" />
+      <path
+        d="M84.8603 16.2537V3.1539H84.2987V16.2537H84.8603Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M83.7387 16.2537V3.1539H83.1772V16.2537H83.7387Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M82.6126 16.2537V3.1539H82.0503V16.2537H82.6126Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M81.4908 16.2537V3.1539H80.9285V16.2537H81.4908Z"
+        fill="#6D2EC5"
+      />
+      <path d="M80.3649 19.2071V0H79.8034V19.2071H80.3649Z" fill="#6D2EC5" />
+      <path
+        d="M79.2435 16.2537V3.1539H78.6819V16.2537H79.2435Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M78.1213 16.2537V3.1539H77.559V16.2537H78.1213Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M76.9997 16.2537V3.1539H76.4374V16.2537H76.9997Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M75.8736 16.2537V3.1539H75.312V16.2537H75.8736Z"
+        fill="#6D2EC5"
+      />
+      <path d="M74.7479 19.2071V0H74.1863V19.2071H74.7479Z" fill="#6D2EC5" />
+      <path
+        d="M73.6263 16.2537V3.1539H73.064V16.2537H73.6263Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M72.5045 16.2537V3.1539H71.9422V16.2537H72.5045Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M71.3825 16.2537V3.1539H70.821V16.2537H71.3825Z"
+        fill="#6D2EC5"
+      />
+      <path d="M70.261 16.2537V3.1539H69.6988V16.2537H70.261Z" fill="#6D2EC5" />
+      <path d="M69.1347 19.2071V0H68.5724V19.2071H69.1347Z" fill="#6D2EC5" />
+      <path
+        d="M68.0092 16.2537V3.1539H67.4469V16.2537H68.0092Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M66.8873 16.2537V3.1539H66.3257V16.2537H66.8873Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M65.7658 16.2537V3.1539H65.2035V16.2537H65.7658Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M64.6439 16.2537V3.1539H64.0816V16.2537H64.6439Z"
+        fill="#6D2EC5"
+      />
+      <path d="M63.5178 19.2071V0H62.9555V19.2071H63.5178Z" fill="#6D2EC5" />
+      <path d="M62.392 16.2537V3.1539H61.8305V16.2537H62.392Z" fill="#6D2EC5" />
+      <path
+        d="M61.2744 16.2537V3.1539H60.7121V16.2537H61.2744Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M60.1484 16.2537V3.1539H59.5861V16.2537H60.1484Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M59.0268 16.2537V3.1539H58.4653V16.2537H59.0268Z"
+        fill="#6D2EC5"
+      />
+      <path d="M57.9007 19.2071V0H57.3392V19.2071H57.9007Z" fill="#6D2EC5" />
+      <path
+        d="M56.7791 16.2537V3.1539H56.2168V16.2537H56.7791Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M55.6573 16.2537V3.1539H55.095V16.2537H55.6573Z"
+        fill="#6D2EC5"
+      />
+      <path d="M54.5316 16.2537V3.1539H53.97V16.2537H54.5316Z" fill="#6D2EC5" />
+      <path
+        d="M53.4096 16.2537V3.1539H52.8473V16.2537H53.4096Z"
+        fill="#6D2EC5"
+      />
+      <path d="M52.288 19.2071V0H51.7258V19.2071H52.288Z" fill="#6D2EC5" />
+      <path
+        d="M51.1618 16.2537V3.1539H50.6003V16.2537H51.1618Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M50.0401 16.2537V3.1539H49.4786V16.2537H50.0401Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M48.9144 16.2537V3.1539H48.3521V16.2537H48.9144Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M47.7928 16.2537V3.1539H47.2305V16.2537H47.7928Z"
+        fill="#6D2EC5"
+      />
+      <path d="M46.671 19.2071V0H46.1094V19.2071H46.671Z" fill="#6D2EC5" />
+      <path
+        d="M45.5449 16.2537V3.1539H44.9833V16.2537H45.5449Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M44.4236 16.2537V3.1539H43.8614V16.2537H44.4236Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M43.3015 16.2537V3.1539H42.7392V16.2537H43.3015Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M42.1755 16.2537V3.1539H41.6139V16.2537H42.1755Z"
+        fill="#6D2EC5"
+      />
+      <path d="M41.0538 19.2071V0H40.4922V19.2071H41.0538Z" fill="#6D2EC5" />
+      <path d="M39.9323 16.2537V3.1539H39.37V16.2537H39.9323Z" fill="#6D2EC5" />
+      <path
+        d="M38.8065 16.2537V3.1539H38.2442V16.2537H38.8065Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M37.6844 16.2537V3.1539H37.1228V16.2537H37.6844Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M36.5585 16.2537V3.1539H35.9963V16.2537H36.5585Z"
+        fill="#6D2EC5"
+      />
+      <path d="M35.4371 19.2071V0H34.8748V19.2071H35.4371Z" fill="#6D2EC5" />
+      <path
+        d="M34.3151 16.2537V3.1539H33.7529V16.2537H34.3151Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M33.1891 16.2537V3.1539H32.6276V16.2537H33.1891Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M32.0672 16.2537V3.1539H31.5049V16.2537H32.0672Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M30.9456 16.2537V3.1539H30.3833V16.2537H30.9456Z"
+        fill="#6D2EC5"
+      />
+      <path d="M29.8199 19.2071V0H29.2576V19.2071H29.8199Z" fill="#6D2EC5" />
+      <path
+        d="M28.6981 16.2537V3.1539H28.1365V16.2537H28.6981Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M27.5722 16.2537V3.1539H27.0099V16.2537H27.5722Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M26.4507 16.2537V3.1539H25.8885V16.2537H26.4507Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M25.3243 16.2537V3.1539H24.7627V16.2537H25.3243Z"
+        fill="#6D2EC5"
+      />
+      <path d="M24.2026 19.2071V0H23.641V19.2071H24.2026Z" fill="#6D2EC5" />
+      <path
+        d="M23.0809 16.2537V3.1539H22.5186V16.2537H23.0809Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M21.9551 16.2537V3.1539H21.3936V16.2537H21.9551Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M20.8336 16.2537V3.1539H20.2713V16.2537H20.8336Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M19.7114 16.2537V3.1539H19.1491V16.2537H19.7114Z"
+        fill="#6D2EC5"
+      />
+      <path d="M18.5856 19.2071V0H18.0233V19.2071H18.5856Z" fill="#6D2EC5" />
+      <path
+        d="M17.4638 16.2537V3.1539H16.9023V16.2537H17.4638Z"
+        fill="#6D2EC5"
+      />
+      <path d="M16.338 16.2537V3.1539H15.7764V16.2537H16.338Z" fill="#6D2EC5" />
+      <path
+        d="M15.2162 16.2537V3.1539H14.654V16.2537H15.2162Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M14.0943 16.2537V3.1539H13.532V16.2537H14.0943Z"
+        fill="#6D2EC5"
+      />
+      <path d="M12.9684 19.2071V0H12.4069V19.2071H12.9684Z" fill="#6D2EC5" />
+      <path
+        d="M11.8466 16.2537V3.1539H11.2851V16.2537H11.8466Z"
+        fill="#6D2EC5"
+      />
+      <path d="M10.725 16.2537V3.1539H10.1628V16.2537H10.725Z" fill="#6D2EC5" />
+      <path d="M9.5993 16.2537V3.1539H9.03704V16.2537H9.5993Z" fill="#6D2EC5" />
+      <path
+        d="M8.47711 16.2537V3.1539H7.91558V16.2537H8.47711Z"
+        fill="#6D2EC5"
+      />
+      <path d="M7.3559 19.2071V0H6.79437V19.2071H7.3559Z" fill="#6D2EC5" />
+      <path
+        d="M6.22961 16.2537V3.1539H5.66735V16.2537H6.22961Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M5.10797 16.2537V3.1539H4.5457V16.2537H5.10797Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M3.98224 16.2537V3.1539H3.42071V16.2537H3.98224Z"
+        fill="#6D2EC5"
+      />
+      <path
+        d="M2.86066 16.2537V3.1539H2.29839V16.2537H2.86066Z"
+        fill="#6D2EC5"
+      />
+    </svg>
+  </div>
 );
 
 // ─────────────────────────────────────────────────────────────────────────────
 //  Nav link data
 // ─────────────────────────────────────────────────────────────────────────────
 const NAV_LINKS: { label: string; href: string }[] = [
-  { label: "ABOUT", href: "/" },
+  { label: "ABOUT", href: "#aboutSection" },
+  { label: "", href: "" },
   { label: "FORM", href: "/form" },
-  { label: "LOGIN", href: "/" },
+  { label: "", href: "" },
+
+  { label: "LOGIN", href: "/login" },
 ];
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -244,11 +429,11 @@ export const HomeNavbar: React.FC<HomeNavbarProps> = ({
         position: "relative",
         zIndex: 20,
         width: "100%",
-        height: 72,
+        height: 100,
         display: "flex",
         alignItems: "center",
         justifyContent: "space-between",
-        padding: "0 48px",
+        padding: "100px 48px",
       }}
     >
       {/* ══ LEFT — EXCELLENCE logo ══════════════════════════════════════════ */}
@@ -259,6 +444,9 @@ export const HomeNavbar: React.FC<HomeNavbarProps> = ({
           alignItems: "center",
           flexShrink: 0,
           filter: "drop-shadow(0 0 8px rgba(255,98,252,0.6))",
+          width: "20%",
+          justifyContent: "center",
+          height: "100%",
         }}
       >
         <ExcellenceLogo />
@@ -274,7 +462,9 @@ export const HomeNavbar: React.FC<HomeNavbarProps> = ({
           // Large even spacing between each link item
           gap: 0,
           flex: 1,
-          justifyContent: "center",
+          justifyContent: "end",
+          width: "80%",
+          height: "100%",
         }}
       >
         {NAV_LINKS.map((link, i) => (
@@ -283,13 +473,15 @@ export const HomeNavbar: React.FC<HomeNavbarProps> = ({
             href={link.href}
             style={{
               display: "inline-flex",
-              flexDirection: "column",
-              alignItems: "center",
-              gap: 4,
+              flexDirection: "row",
+              alignItems: link.label == "" ? "flex-end" : "center",
               // Wide padding to space out the links
-              padding: "0 36px",
               textDecoration: "none",
               cursor: "pointer",
+              height: "100%",
+              width: "9%",
+              paddingTop: 40,
+              justifyContent: "center",
             }}
             onMouseEnter={(e) => {
               const el = e.currentTarget as HTMLAnchorElement;
@@ -303,21 +495,24 @@ export const HomeNavbar: React.FC<HomeNavbarProps> = ({
             }}
           >
             {/* Barcode strip — small, centred above each link label */}
-            <BarcodeStrip
-              style={{
-                width: "70px",
-                height: "auto",
-                display: "block",
-                opacity: 0.9,
-              }}
-            />
+
+            {link.label == "" && (
+              <BarcodeStrip
+                style={{
+                  width: "70px",
+                  height: "auto",
+                  display: "flex",
+                  opacity: 0.9,
+                }}
+              />
+            )}
 
             {/* Link label */}
             <span
               className="nav-label"
               style={{
                 fontFamily: '"Aclonica", sans-serif',
-                fontSize: 14,
+                fontSize: 22,
                 fontWeight: 700,
                 letterSpacing: "0.15em",
                 textTransform: "uppercase",
@@ -330,19 +525,19 @@ export const HomeNavbar: React.FC<HomeNavbarProps> = ({
             </span>
           </a>
         ))}
-      </div>
-
-      {/* ══ RIGHT — LGOIN solid pink pill button ════════════════════════════ */}
-      <div
-        id="navbar-right"
-        style={{
-          display: "flex",
-          alignItems: "center",
-          flexShrink: 0,
-        }}
-      >
-        {/* Logout ghost text (only when authenticated) */}
-        {isAuthenticated && onLogoutClick && (
+        <div
+          id="navbar-right"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            flexShrink: 0,
+            width: "18%",
+            justifyContent: "center",
+            height: "100%",
+          }}
+        >
+          {/* Logout ghost text (only when authenticated) */}
+          {/* {isAuthenticated && onLogoutClick && (
           <button
             onClick={onLogoutClick}
             style={{
@@ -368,53 +563,38 @@ export const HomeNavbar: React.FC<HomeNavbarProps> = ({
           >
             Logout
           </button>
-        )}
+        )} */}
 
-        {/* LGOIN — SOLID pink fill, pill shape, exactly as in reference image */}
-        <button
-          id="navbar-login-btn"
-          onClick={isAuthenticated ? onLogoutClick : onLoginClick}
-          style={{
-            display: "inline-flex",
-            alignItems: "center",
-            justifyContent: "center",
-            padding: "9px 26px",
-            // Full pill (high border-radius on all sides)
-            borderRadius: "50px",
-            // Solid magenta/pink fill — the key visual difference
-            background: "#CF4BFF",
-            border: "1.5px solid #FF62FC",
-            cursor: "pointer",
-            fontFamily: '"Aclonica", sans-serif',
-            fontSize: 12,
-            fontWeight: 700,
-            letterSpacing: "0.18em",
-            textTransform: "uppercase",
-            color: "#ffffff",
-            whiteSpace: "nowrap",
-            transition:
-              "background 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease",
-            boxShadow:
-              "0 0 14px rgba(207,75,255,0.55), inset 0 1px 0 rgba(255,255,255,0.15)",
-          }}
-          onMouseEnter={(e) => {
-            const el = e.currentTarget as HTMLButtonElement;
-            el.style.background = "#e055ff";
-            el.style.boxShadow =
-              "0 0 24px rgba(207,75,255,0.8), inset 0 1px 0 rgba(255,255,255,0.2)";
-            el.style.transform = "translateY(-1px)";
-          }}
-          onMouseLeave={(e) => {
-            const el = e.currentTarget as HTMLButtonElement;
-            el.style.background = "#CF4BFF";
-            el.style.boxShadow =
-              "0 0 14px rgba(207,75,255,0.55), inset 0 1px 0 rgba(255,255,255,0.15)";
-            el.style.transform = "translateY(0)";
-          }}
-        >
-          LGOIN
-        </button>
+          {/* LGOIN — SOLID pink fill, pill shape, exactly as in reference image */}
+          <button
+            id="navbar-login-btn"
+            onClick={isAuthenticated ? onLogoutClick : onLoginClick}
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              justifyContent: "center",
+              padding: "7px 26px",
+              // Full pill (high border-radius on all sides)
+              borderRadius: "50px",
+              // Solid magenta/pink fill — the key visual difference
+              background: "#e3bdee",
+              cursor: "pointer",
+              fontFamily: '"Aclonica", sans-serif',
+              fontSize: 16,
+              fontWeight: 700,
+              letterSpacing: "0.15em",
+              color: "#000",
+              transition:
+                "background 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease",
+              width: "70%",
+            }}
+          >
+            LOGiN
+          </button>
+        </div>
       </div>
+
+      {/* ══ RIGHT — LGOIN solid pink pill button ════════════════════════════ */}
     </nav>
   );
 };
