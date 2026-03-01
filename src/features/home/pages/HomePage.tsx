@@ -17,138 +17,26 @@ const PAGE_STYLES = `
 // ─────────────────────────────────────────────────────────────────────────────
 //  Zone 3 — About section
 // ─────────────────────────────────────────────────────────────────────────────
-const AboutZone = () => (
-  <div
-    id="about"
-    style={{
-      width: "100%",
-      minHeight: "30vh",
-      display: "flex",
-      flexDirection: "column",
-      alignItems: "center",
-      justifyContent: "center",
-      padding: "clamp(40px, 6vw, 100px) clamp(80px, 8vw, 160px)",
-    }}
-  >
-    <div
-      style={{
-        width: "100%",
-        maxWidth: "900px",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "flex-start",
-        gap: "28px",
-      }}
-    >
-      {/* ── Section label + top rule ── */}
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "16px",
-          width: "100%",
-        }}
-      >
-        <span
-          style={{
-            fontFamily: "monospace",
-            fontSize: "10px",
-            fontWeight: 700,
-            letterSpacing: "0.4em",
-            color: "#FF62FC",
-            textTransform: "uppercase",
-            textShadow: "0 0 10px rgba(255,98,252,0.7)",
-            whiteSpace: "nowrap",
-          }}
-        >
-          // ABOUT
-        </span>
-        <div
-          style={{
-            flex: 1,
-            height: "1px",
-            background:
-              "linear-gradient(90deg, rgba(255,98,252,0.8) 0%, rgba(255,98,252,0.08) 100%)",
-          }}
-        />
-      </div>
+const Footer = () => (
+ <>
+ <div className="w-full h-160 flex flex-col "style={{justifyContent:"center"}}>
+<div className="mb-8">
+  <svg width="17" height="101" viewBox="0 0 17 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="17" height="101" fill="#FF62FC"/>
+</svg>
+</div>
 
-      {/* ── Section heading ── */}
-      <h2
-        style={{
-          margin: 0,
-          fontFamily: '"Arial Black", "Impact", Arial, sans-serif',
-          fontStyle: "italic",
-          fontWeight: 900,
-          fontSize: "clamp(24px, 3vw, 48px)",
-          letterSpacing: "0.05em",
-          textTransform: "uppercase",
-          color: "#ffffff",
-          lineHeight: 1.1,
-        }}
-      >
-        ABOUT
-       
-        
-      </h2>
+<div>
+<svg width="742" height="77" viewBox="0 0 742 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.84281 75.4172H174.183L260.577 1.41431H37.1438C23.3644 12.0443 15.6222 18.0022 1.84281 28.6322V75.4386V75.4172Z" fill="#522395"/>
+<path d="M174.968 76.8104H0V28.0323L36.3629 0H264.604L174.94 76.789L174.968 76.8104ZM3.63348 74.0243H173.346L256.498 2.80752H37.9003L3.66146 29.1897V74.0243H3.63348Z" fill="#522395"/>
+<path d="M705.637 76.8103H212.457L302.121 0.0213623H742V48.7994L705.637 76.8318V76.8103ZM220.591 74.0242H704.127L738.366 47.6421V2.80743H303.742L220.591 74.0242Z" fill="#522395"/>
+</svg>
+</div>
 
-      {/* ── Body paragraph ── */}
-      <p
-        style={{
-          margin: 0,
-          fontFamily: 'system-ui, -apple-system, "Segoe UI", sans-serif',
-          fontSize: "clamp(14px, 1.1vw, 18px)",
-          fontWeight: 400,
-          color: "rgba(255,255,255,0.72)",
-          lineHeight: 1.9,
-          maxWidth: "760px",
-          borderLeft: "2px solid rgba(255,98,252,0.35)",
-          paddingLeft: "20px",
-        }}
-      >
-        A one-day competitive programming event aimed at first-year students
-        interested in programming from various universities, based on solving
-        programming questions within a specific time and in a way that measures
-        thinking and logic.
-      </p>
 
-      {/* ── Decorative bottom accent ── */}
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          gap: "12px",
-          width: "100%",
-        }}
-      >
-        <div
-          style={{
-            width: "36px",
-            height: "1px",
-            background: "#00E5FF",
-            boxShadow: "0 0 6px rgba(0,229,255,0.6)",
-          }}
-        />
-        <div
-          style={{
-            width: "7px",
-            height: "7px",
-            background: "transparent",
-            border: "1.5px solid #FF62FC",
-            transform: "rotate(45deg)",
-            boxShadow: "0 0 6px rgba(255,98,252,0.5)",
-          }}
-        />
-        <div
-          style={{
-            flex: 1,
-            height: "1px",
-            background: "rgba(255,255,255,0.07)",
-          }}
-        />
-      </div>
-    </div>
-  </div>
+ </div>
+ </>
 );
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -180,7 +68,7 @@ const HomePage = () => {
             onLogin={() => navigate("/login")}
           />
         }
-        about={<AboutZone />}
+        about={<Footer />}
       />
     </>
   );
