@@ -511,9 +511,9 @@ export const HomeNavbar: React.FC<HomeNavbarProps> = ({
             <span
               className="nav-label"
               style={{
-                fontFamily: '"Aclonica", sans-serif',
-                fontSize: 22,
-                fontWeight: 700,
+                fontFamily: "SuperchargeExpanded",
+                fontSize: 24,
+                fontWeight: 800,
                 letterSpacing: "0.15em",
                 textTransform: "uppercase",
                 color: "#ffffff",
@@ -566,31 +566,55 @@ export const HomeNavbar: React.FC<HomeNavbarProps> = ({
         )} */}
 
           {/* LGOIN — SOLID pink fill, pill shape, exactly as in reference image */}
-          <button
-            id="navbar-login-btn"
-            onClick={isAuthenticated ? onLogoutClick : onLoginClick}
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              justifyContent: "center",
-              padding: "7px 26px",
-              // Full pill (high border-radius on all sides)
-              borderRadius: "50px",
-              // Solid magenta/pink fill — the key visual difference
-              background: "#e3bdee",
-              cursor: "pointer",
-              fontFamily: '"Aclonica", sans-serif',
-              fontSize: 16,
-              fontWeight: 700,
-              letterSpacing: "0.15em",
-              color: "#000",
-              transition:
-                "background 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease",
-              width: "70%",
-            }}
-          >
-            LOGiN
-          </button>
+          {isAuthenticated ? (
+            <button
+              id="navbar-login-btn"
+              onClick={onLogoutClick}
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                justifyContent: "center",
+                padding: "7px 26px",
+                borderRadius: "50px",
+                background: "#e3bdee",
+                cursor: "pointer",
+                fontFamily: '"Aclonica", sans-serif',
+                fontSize: 16,
+                fontWeight: 700,
+                letterSpacing: "0.15em",
+                color: "#000",
+                transition:
+                  "background 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease",
+                width: "70%",
+              }}
+            >
+              LOGOUT
+            </button>
+          ) : (
+            <button
+              id="navbar-login-btn"
+              onClick={onLoginClick}
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                justifyContent: "center",
+                padding: "7px 26px",
+                borderRadius: "50px",
+                background: "#e3bdee",
+                cursor: "pointer",
+                fontFamily: '"Aclonica", sans-serif',
+                fontSize: 16,
+                fontWeight: 700,
+                letterSpacing: "0.15em",
+                color: "#000",
+                transition:
+                  "background 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease",
+                width: "70%",
+              }}
+            >
+              LOGiN
+            </button>
+          )}
         </div>
       </div>
 

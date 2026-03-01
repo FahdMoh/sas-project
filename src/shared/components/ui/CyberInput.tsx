@@ -326,9 +326,10 @@ export const CyberInput: React.FC<CyberInputProps> = ({
             {/* Floating label — bg-black masks the border line behind it */}
             <label
                 htmlFor={props.id}
-                className={`absolute -top-3 left-4 px-2 font-black italic tracking-widest text-sm z-10 ${
+                className={`absolute -top-3 left-4 px-2 font-black italic  tracking-widest text-sm z-10 ${
                     error ? 'text-red-500 bg-black' : 'text-[#ea8cff] bg-black'
                 }`}
+                style={{fontFamily:"SuperchargeExpanded"}}
             >
                 {label.toUpperCase()}
             </label>

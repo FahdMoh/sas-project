@@ -1486,9 +1486,8 @@ export const HomeHero: React.FC<HomeHeroProps> = ({
           backgroundClip: "text",
           color: "transparent",
           fontWeight: "850",
-          fontStyle: "italic",
+          fontFamily:"var(--font-supercharge)",
           textTransform: "uppercase",
-          fontFamily: "sans-serif",
           display: "inline-block",
           fontSize: "clamp(24px, 4vw, 40px)",
           marginBottom: "20px",
@@ -1502,7 +1501,7 @@ export const HomeHero: React.FC<HomeHeroProps> = ({
         style={{
           fontFamily: 'system-ui, -apple-system, "Segoe UI", sans-serif',
           fontSize: "clamp(13px, 1.1vw, 21px)",
-          fontWeight: 550,
+          fontWeight: 700,
           fontStyle: "normal",
           color: "#ffffff",
           letterSpacing: "0.05em",
@@ -1603,7 +1602,7 @@ export const HomeHero: React.FC<HomeHeroProps> = ({
                 marginLeft: "20px",
               }}
             >
-              <p style={{ color: "#fff", fontSize: "24px", fontWeight: "500" }}>
+              <p style={{ color: "#fff", fontSize: "28px", fontWeight: "650",fontFamily:"ASaneJaleh",marginRight:"100px" }}>
                 A one-day competitive programming event aimed at first-year
                 students interested<br></br> in programming from various
                 universities, based on solving programming<br></br> questions

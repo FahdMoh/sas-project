@@ -2,12 +2,37 @@
 
 @theme {
   /* Global font — overrides Tailwind's built-in sans stack */
+  
   --font-sans: 'Aclonica', sans-serif;
+    --font-supercharge: 'SuperchargeExpanded', sans-serif;
+    --font-asane-jaleh: 'ASaneJaleh', sans-serif;
+
 
   /* Brand identity colors */
   --color-brand-dark: #010103;
   --color-brand-purple: #5e27a7;
 }
+
+@font-face {
+ 
+
+  font-family: 'ASaneJaleh';
+  src: url('./assets/fonts/ASaneJaleh-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'SuperchargeExpanded';
+  src: url('./assets/fonts/SuperchargeExpanded.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 
 /* ═══════════════════════════════════════════════════════════════
    CyberButton — 1-second glitch burst on hover
